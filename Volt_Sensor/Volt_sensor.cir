@@ -1,0 +1,33 @@
+* /Users/Yngve/Dropbox/Drivesprosjekt/KiCad/Volt_Sensor/Volt_sensor.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 2016 November 30, Wednesday 12:35:48
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  Net-_R5-Pad1_ Net-_R6-Pad1_ VCC V_LEM VEE LV-25-P		
+R1  Net-_R1-Pad1_ Net-_P2-Pad1_ 16k5 5W		
+R5  Net-_R5-Pad1_ Net-_R3-Pad1_ 16k5 5W		
+R3  Net-_R3-Pad1_ Net-_R1-Pad1_ 16k5 5W		
+R2  Net-_R2-Pad1_ Net-_P2-Pad2_ 16k5 5W		
+R6  Net-_R6-Pad1_ Net-_R4-Pad1_ 16k5 5W		
+R4  Net-_R4-Pad1_ Net-_R2-Pad1_ 16k5 5W		
+R7  GND V_LEM 100R		
+P2  Net-_P2-Pad1_ Net-_P2-Pad2_ CONN_01X02		
+P1  VCC ? VEE CONN_01X03		
+C4  GND VEE 100u		
+C3  VCC GND 100u		
+C1  VCC GND 100n		
+C2  GND VEE 100n		
+P3  V_LEM GND CONN_01X02		
+U2  ? ? ? VEE Net-_RV1-Pad2_ V_LEM Net-_P4-Pad1_ VCC NE5532		
+P4  Net-_P4-Pad1_ GND CONN_01X02		
+R8  VCC Net-_R8-Pad2_ 2k		
+R9  Net-_R9-Pad1_ VEE 2k		
+RV1  Net-_R8-Pad2_ Net-_RV1-Pad2_ Net-_R9-Pad1_ 100k		
+R11  Net-_P4-Pad1_ V_LEM 2k		
+R10  GND V_LEM 10k		
+C5  VCC VEE 100n		
+
+.end
