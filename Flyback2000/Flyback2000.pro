@@ -1,4 +1,4 @@
-update=2017 July 07, Friday 16:52:25
+update=Tue 18 Jul 2017 11:10:43 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,7 +60,7 @@ LibName29=valves
 version=1
 [schematic_editor]
 version=1
-PageLayoutDescrFile=/Users/Yngve/Dropbox/Drivesprosjekt/TikZ/Logo/Switchcraft_std_layout_v2.kicad_wks
+PageLayoutDescrFile=../../kicad-lib/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
