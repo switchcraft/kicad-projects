@@ -30,7 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:Avago
 LIBS:Mornsun
-LIBS:Gate_driver-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -501,4 +500,17 @@ Wire Wire Line
 Connection ~ 5950 3450
 Connection ~ 5450 3450
 Connection ~ 5050 2900
+Text Notes 6950 1850 0    60   ~ 0
+Note: According to datasheet, \nHCPL-3120 requires a 0.1uF \nbypass capacitor between pin 5 and 8 \n(YS)
+$Comp
+L C C?
+U 1 1 59766429
+P 7950 1250
+F 0 "C?" H 7975 1350 50  0000 L CNN
+F 1 "0.1uF" H 7975 1150 50  0000 L CNN
+F 2 "" H 7988 1100 50  0001 C CNN
+F 3 "" H 7950 1250 50  0001 C CNN
+	1    7950 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

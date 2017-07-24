@@ -1,4 +1,4 @@
-update=Mon 24 Jul 2017 06:02:44 PM CEST
+update=2017 July 24, Monday 23:07:01
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,5 +68,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/eirik/media/dokumenter/Switchcraft/development/git/kicad-lib/library/Avago
-LibName31=/home/eirik/media/dokumenter/Switchcraft/development/git/kicad-lib/library/Mornsun
+LibName30=/Users/Yngve/git/Switchcraft/kicad-lib/library/Avago
+LibName31=/Users/Yngve/git/Switchcraft/kicad-lib/library/Mornsun
