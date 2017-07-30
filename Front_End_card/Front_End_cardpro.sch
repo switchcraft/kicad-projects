@@ -29,6 +29,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Semikron
+LIBS:Allegro
+LIBS:Front_End_cardpro-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -132,4 +134,15 @@ $EndComp
 Wire Wire Line
 	9100 3000 10300 3000
 Connection ~ 9300 3100
+$Comp
+L ACS758xCB-PFF U?
+U 1 1 597B5F3F
+P 8250 4500
+F 0 "U?" H 8050 4950 60  0000 C CNN
+F 1 "ACS758xCB-PFF" H 8250 4000 60  0000 C CNN
+F 2 "" H 8250 4500 60  0001 C CNN
+F 3 "" H 8250 4500 60  0001 C CNN
+	1    8250 4500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
