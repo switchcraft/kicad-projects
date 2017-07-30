@@ -1,0 +1,472 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Avago
+LIBS:Mornsun
+LIBS:ftdi
+LIBS:switches
+LIBS:DC-link_controller-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "DC-link controller"
+Date ""
+Rev "1"
+Comp "Switchcraft AS"
+Comment1 "N/A"
+Comment2 "E & Y"
+Comment3 "Control and safety system for DC-link"
+Comment4 "Brake chopper, pre-charge, temperature, etc."
+$EndDescr
+$Comp
+L CONN_01X02 J?
+U 1 1 597E0D60
+P 1300 5750
+F 0 "J?" H 1300 5900 50  0000 C CNN
+F 1 "CONN_01X02" V 1400 5750 50  0000 C CNN
+F 2 "" H 1300 5750 50  0001 C CNN
+F 3 "" H 1300 5750 50  0001 C CNN
+	1    1300 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 J?
+U 1 1 597E0DD8
+P 9900 1450
+F 0 "J?" H 9900 1600 50  0000 C CNN
+F 1 "CONN_01X02" V 10000 1450 50  0000 C CNN
+F 2 "" H 9900 1450 50  0001 C CNN
+F 3 "" H 9900 1450 50  0001 C CNN
+	1    9900 1450
+	1    0    0    -1  
+$EndComp
+Text Notes 9500 1800 0    60   ~ 0
+Pre-charge relay
+$Comp
+L CONN_01X02 J?
+U 1 1 597E0EC7
+P 9900 2250
+F 0 "J?" H 9900 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 10000 2250 50  0000 C CNN
+F 2 "" H 9900 2250 50  0001 C CNN
+F 3 "" H 9900 2250 50  0001 C CNN
+	1    9900 2250
+	1    0    0    -1  
+$EndComp
+Text Notes 9600 2600 0    60   ~ 0
+Input contactor
+Text Notes 900  6150 0    60   ~ 0
+5 V DC Power input
+$Comp
+L CONN_01X03 J?
+U 1 1 597E1083
+P 1300 4050
+F 0 "J?" H 1300 4250 50  0000 C CNN
+F 1 "CONN_01X03" V 1400 4050 50  0000 C CNN
+F 2 "" H 1300 4050 50  0001 C CNN
+F 3 "" H 1300 4050 50  0001 C CNN
+	1    1300 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 J?
+U 1 1 597E1186
+P 1300 3200
+F 0 "J?" H 1300 3400 50  0000 C CNN
+F 1 "CONN_01X03" V 1400 3200 50  0000 C CNN
+F 2 "" H 1300 3200 50  0001 C CNN
+F 3 "" H 1300 3200 50  0001 C CNN
+	1    1300 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 J?
+U 1 1 597E11B9
+P 1300 1550
+F 0 "J?" H 1300 1750 50  0000 C CNN
+F 1 "CONN_01X03" V 1400 1550 50  0000 C CNN
+F 2 "" H 1300 1550 50  0001 C CNN
+F 3 "" H 1300 1550 50  0001 C CNN
+	1    1300 1550
+	-1   0    0    1   
+$EndComp
+Text Notes 950  4450 0    60   ~ 0
+DC-link input current
+Text Notes 950  3600 0    60   ~ 0
+DC-link output current
+Text Notes 950  1950 0    60   ~ 0
+DC-link voltage
+$Comp
+L CONN_01X03 J?
+U 1 1 597E173F
+P 1300 2400
+F 0 "J?" H 1300 2600 50  0000 C CNN
+F 1 "CONN_01X03" V 1400 2400 50  0000 C CNN
+F 2 "" H 1300 2400 50  0001 C CNN
+F 3 "" H 1300 2400 50  0001 C CNN
+	1    1300 2400
+	-1   0    0    1   
+$EndComp
+Text Notes 950  2800 0    60   ~ 0
+Brake chopper current
+$Comp
+L VCC #PWR?
+U 1 1 597E187D
+P 1600 1400
+F 0 "#PWR?" H 1600 1250 50  0001 C CNN
+F 1 "VCC" H 1600 1550 50  0000 C CNN
+F 2 "" H 1600 1400 50  0001 C CNN
+F 3 "" H 1600 1400 50  0001 C CNN
+	1    1600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 597E18B5
+P 1600 2250
+F 0 "#PWR?" H 1600 2100 50  0001 C CNN
+F 1 "VCC" H 1600 2400 50  0000 C CNN
+F 2 "" H 1600 2250 50  0001 C CNN
+F 3 "" H 1600 2250 50  0001 C CNN
+	1    1600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 597E18EA
+P 1600 3050
+F 0 "#PWR?" H 1600 2900 50  0001 C CNN
+F 1 "VCC" H 1600 3200 50  0000 C CNN
+F 2 "" H 1600 3050 50  0001 C CNN
+F 3 "" H 1600 3050 50  0001 C CNN
+	1    1600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 597E19BE
+P 1600 3900
+F 0 "#PWR?" H 1600 3750 50  0001 C CNN
+F 1 "VCC" H 1600 4050 50  0000 C CNN
+F 2 "" H 1600 3900 50  0001 C CNN
+F 3 "" H 1600 3900 50  0001 C CNN
+	1    1600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 597E1A1B
+P 1600 3350
+F 0 "#PWR?" H 1600 3100 50  0001 C CNN
+F 1 "GND" H 1600 3200 50  0000 C CNN
+F 2 "" H 1600 3350 50  0001 C CNN
+F 3 "" H 1600 3350 50  0001 C CNN
+	1    1600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 597E1A48
+P 1600 4200
+F 0 "#PWR?" H 1600 3950 50  0001 C CNN
+F 1 "GND" H 1600 4050 50  0000 C CNN
+F 2 "" H 1600 4200 50  0001 C CNN
+F 3 "" H 1600 4200 50  0001 C CNN
+	1    1600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 597E1AF1
+P 1600 2550
+F 0 "#PWR?" H 1600 2300 50  0001 C CNN
+F 1 "GND" H 1600 2400 50  0000 C CNN
+F 2 "" H 1600 2550 50  0001 C CNN
+F 3 "" H 1600 2550 50  0001 C CNN
+	1    1600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1450 1600 1450
+Wire Wire Line
+	1600 1450 1600 1400
+Wire Wire Line
+	1600 2250 1600 2300
+Wire Wire Line
+	1600 2300 1500 2300
+Wire Wire Line
+	1500 3100 1600 3100
+Wire Wire Line
+	1600 3100 1600 3050
+Wire Wire Line
+	1600 3900 1600 3950
+Wire Wire Line
+	1600 3950 1500 3950
+Wire Wire Line
+	1500 4150 1600 4150
+Wire Wire Line
+	1600 4150 1600 4200
+Wire Wire Line
+	1500 3300 1600 3300
+Wire Wire Line
+	1600 3300 1600 3350
+Wire Wire Line
+	1600 2550 1600 2500
+Wire Wire Line
+	1600 2500 1500 2500
+$Comp
+L GND #PWR?
+U 1 1 597E1B69
+P 1600 1700
+F 0 "#PWR?" H 1600 1450 50  0001 C CNN
+F 1 "GND" H 1600 1550 50  0000 C CNN
+F 2 "" H 1600 1700 50  0001 C CNN
+F 3 "" H 1600 1700 50  0001 C CNN
+	1    1600 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1650 1600 1650
+Wire Wire Line
+	1600 1650 1600 1700
+$Comp
+L GND #PWR?
+U 1 1 597E1D13
+P 1600 5850
+F 0 "#PWR?" H 1600 5600 50  0001 C CNN
+F 1 "GND" H 1600 5700 50  0000 C CNN
+F 2 "" H 1600 5850 50  0001 C CNN
+F 3 "" H 1600 5850 50  0001 C CNN
+	1    1600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 597E1D39
+P 1600 5650
+F 0 "#PWR?" H 1600 5500 50  0001 C CNN
+F 1 "VCC" H 1600 5800 50  0000 C CNN
+F 2 "" H 1600 5650 50  0001 C CNN
+F 3 "" H 1600 5650 50  0001 C CNN
+	1    1600 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5700 1600 5700
+Wire Wire Line
+	1600 5700 1600 5650
+Wire Wire Line
+	1500 5800 1600 5800
+Wire Wire Line
+	1600 5800 1600 5850
+Wire Wire Line
+	1500 1550 1600 1550
+Text GLabel 1600 1550 2    60   Input ~ 0
+dc_link_voltage
+Wire Wire Line
+	1500 2400 1600 2400
+Wire Wire Line
+	1500 3200 1600 3200
+Wire Wire Line
+	1500 4050 1600 4050
+Text GLabel 1600 2400 2    60   Input ~ 0
+brake_chopper_current
+Text GLabel 1600 3200 2    60   Input ~ 0
+dc_link_output_current
+Text GLabel 1600 4050 2    60   Input ~ 0
+dc_link_input_current
+$Sheet
+S 5050 1850 1650 3150
+U 597E36AA
+F0 "Microcontroller" 60
+F1 "microcontroller.sch" 60
+F2 "5V-power" I L 5050 1950 60 
+F3 "Ground" I L 5050 4900 60 
+$EndSheet
+$Comp
+L CONN_01X05 J?
+U 1 1 597E4546
+P 9900 3200
+F 0 "J?" H 9900 3500 50  0000 C CNN
+F 1 "CONN_01X05" V 10000 3200 50  0000 C CNN
+F 2 "" H 9900 3200 50  0001 C CNN
+F 3 "" H 9900 3200 50  0001 C CNN
+	1    9900 3200
+	1    0    0    -1  
+$EndComp
+Text Notes 9300 3700 0    60   ~ 0
+Brake chopper gate driver
+Text Notes 9150 4750 0    60   ~ 0
+Pre-charge gate driver (optional)
+$Comp
+L GND #PWR?
+U 1 1 597E498F
+P 4800 5000
+F 0 "#PWR?" H 4800 4750 50  0001 C CNN
+F 1 "GND" H 4800 4850 50  0000 C CNN
+F 2 "" H 4800 5000 50  0001 C CNN
+F 3 "" H 4800 5000 50  0001 C CNN
+	1    4800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5000 4800 4900
+Wire Wire Line
+	4800 4900 5050 4900
+$Comp
+L VCC #PWR?
+U 1 1 597E4A8E
+P 4800 1850
+F 0 "#PWR?" H 4800 1700 50  0001 C CNN
+F 1 "VCC" H 4800 2000 50  0000 C CNN
+F 2 "" H 4800 1850 50  0001 C CNN
+F 3 "" H 4800 1850 50  0001 C CNN
+	1    4800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1850 4800 1950
+Wire Wire Line
+	4800 1950 5050 1950
+$Comp
+L LED D?
+U 1 1 597E5506
+P 8950 1400
+F 0 "D?" H 8950 1500 50  0000 C CNN
+F 1 "LED" H 8950 1300 50  0000 C CNN
+F 2 "" H 8950 1400 50  0001 C CNN
+F 3 "" H 8950 1400 50  0001 C CNN
+	1    8950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 597E58A4
+P 9600 2950
+F 0 "#PWR?" H 9600 2800 50  0001 C CNN
+F 1 "VCC" H 9600 3100 50  0000 C CNN
+F 2 "" H 9600 2950 50  0001 C CNN
+F 3 "" H 9600 2950 50  0001 C CNN
+	1    9600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 2950 9600 3000
+Wire Wire Line
+	9600 3000 9700 3000
+$Comp
+L GND #PWR?
+U 1 1 597E5A0A
+P 9600 3450
+F 0 "#PWR?" H 9600 3200 50  0001 C CNN
+F 1 "GND" H 9600 3300 50  0000 C CNN
+F 2 "" H 9600 3450 50  0001 C CNN
+F 3 "" H 9600 3450 50  0001 C CNN
+	1    9600 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 3400 9600 3400
+Wire Wire Line
+	9600 3400 9600 3450
+Wire Wire Line
+	9700 3100 9600 3100
+Wire Wire Line
+	8900 3200 9700 3200
+Wire Wire Line
+	9700 3300 9600 3300
+Text GLabel 9600 3100 0    60   Input ~ 0
+chop_gate_ctrl
+Text GLabel 8900 3200 0    60   Input ~ 0
+chop_fault
+Text GLabel 9600 3300 0    60   Input ~ 0
+chop_reset
+$Comp
+L CONN_01X05 J?
+U 1 1 597E61D7
+P 9900 4150
+F 0 "J?" H 9900 4450 50  0000 C CNN
+F 1 "CONN_01X05" V 10000 4150 50  0000 C CNN
+F 2 "" H 9900 4150 50  0001 C CNN
+F 3 "" H 9900 4150 50  0001 C CNN
+	1    9900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 597E61DD
+P 9600 3900
+F 0 "#PWR?" H 9600 3750 50  0001 C CNN
+F 1 "VCC" H 9600 4050 50  0000 C CNN
+F 2 "" H 9600 3900 50  0001 C CNN
+F 3 "" H 9600 3900 50  0001 C CNN
+	1    9600 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 3900 9600 3950
+Wire Wire Line
+	9600 3950 9700 3950
+$Comp
+L GND #PWR?
+U 1 1 597E61E5
+P 9600 4400
+F 0 "#PWR?" H 9600 4150 50  0001 C CNN
+F 1 "GND" H 9600 4250 50  0000 C CNN
+F 2 "" H 9600 4400 50  0001 C CNN
+F 3 "" H 9600 4400 50  0001 C CNN
+	1    9600 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 4350 9600 4350
+Wire Wire Line
+	9600 4350 9600 4400
+Wire Wire Line
+	9700 4050 9600 4050
+Wire Wire Line
+	8800 4150 9700 4150
+Wire Wire Line
+	9700 4250 9600 4250
+Text GLabel 9600 4050 0    60   Input ~ 0
+pre_ch_gate_ctrl
+Text GLabel 9600 4250 0    60   Input ~ 0
+pre_ch_reset
+Text GLabel 8800 4150 0    60   Input ~ 0
+pre_ch_fault
+$Sheet
+S 7450 5250 1150 1350
+U 597E86EB
+F0 "USB serial port" 60
+F1 "usb-serial-port.sch" 60
+$EndSheet
+$EndSCHEMATC
