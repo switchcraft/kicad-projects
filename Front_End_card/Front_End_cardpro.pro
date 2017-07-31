@@ -1,4 +1,4 @@
-update=2017 July 28, Friday 16:13:18
+update=2017 July 28, Friday 17:55:08
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=Semikron
+LibName31=Allegro
