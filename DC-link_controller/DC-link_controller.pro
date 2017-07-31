@@ -1,4 +1,4 @@
-update=Sun 30 Jul 2017 08:03:28 PM CEST
+update=Mon 31 Jul 2017 02:08:50 AM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -72,3 +72,4 @@ LibName30=Avago
 LibName31=Mornsun
 LibName32=ftdi
 LibName33=switches
+LibName34=relays

@@ -32,6 +32,7 @@ LIBS:Avago
 LIBS:Mornsun
 LIBS:ftdi
 LIBS:switches
+LIBS:relays
 LIBS:DC-link_controller-cache
 EELAYER 25 0
 EELAYER END
