@@ -1,28 +1,9 @@
-update=2017 August 01, Tuesday 19:01:38
+update=2017 August 01, Tuesday 19:06:00
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[pcbnew]
-version=1
-PageLayoutDescrFile=/Users/Yngve/Dropbox/Drivesprosjekt/Switchcraft AS/Switchcraft_std_layout.kicad_wks
-LastNetListRead=Volt_sensor.net
-PadDrill=0.762
-PadDrillOvalY=0.762
-PadSizeH=1.524
-PadSizeV=1.524
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0.2
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.15
-ModuleOutlineThickness=0.15
 [schematic_editor]
 version=1
 PageLayoutDescrFile=/Users/Yngve/git/Switchcraft/kicad-lib/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
@@ -69,3 +50,22 @@ LibName29=valves
 LibName30=LEM
 [general]
 version=1
+[pcbnew]
+version=1
+PageLayoutDescrFile=/Users/Yngve/git/Switchcraft/kicad-lib/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
+LastNetListRead=Volt_sensor.net
+PadDrill=4.3
+PadDrillOvalY=4.3
+PadSizeH=5
+PadSizeV=5
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.2
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15

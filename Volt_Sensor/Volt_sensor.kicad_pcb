@@ -15,8 +15,8 @@
   (page A4)
   (title_block
     (title "Voltage Sensor Card Layout")
-    (date 2016-12-14)
-    (rev 3)
+    (date 2017-08-01)
+    (rev 1)
     (company "Yngve Solbakken")
     (comment 1 "Added copper base and changed R and C to SMDs")
     (comment 2 YS)
