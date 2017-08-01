@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Volt_sensor-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,11 +35,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Voltage Sensing Card with ADC output"
-Date "2016-12-13"
-Rev "2"
-Comp "Yngve Solbakken"
-Comment1 "Rev 2: Changed measurement resistors from 16k5 to 10k"
+Title "Voltage Sensing Card with scaled output to ADC"
+Date "2017-08-01"
+Rev "1"
+Comp "Switchcraft AS"
+Comment1 "New revision"
 Comment2 "YS"
 Comment3 "High voltage input to volt sensor via step down resistors"
 Comment4 "Voltage measurement accross R7, pot for offset and scaling for ADC"
