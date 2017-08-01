@@ -1,4 +1,4 @@
-update=Sun 30 Jul 2017 08:03:28 PM CEST
+update=Mon 31 Jul 2017 07:15:48 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -33,8 +33,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=$SWITCHCRAFTLIB/library
@@ -72,3 +70,6 @@ LibName30=Avago
 LibName31=Mornsun
 LibName32=ftdi
 LibName33=switches
+LibName34=relays
+[general]
+version=1
