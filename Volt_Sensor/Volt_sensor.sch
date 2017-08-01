@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Volt_sensor-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -61,7 +62,7 @@ U 1 1 583EABE7
 P 4500 1600
 F 0 "R1" V 4580 1600 50  0000 C CNN
 F 1 "10k 5W" V 4400 1600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L19mm-W8mm-H8mm-p25mm" V 4430 1600 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" V 4430 1600 50  0001 C CNN
 F 3 "" H 4500 1600 50  0000 C CNN
 	1    4500 1600
 	0    1    1    0   
@@ -72,7 +73,7 @@ U 1 1 583EB13D
 P 5300 1600
 F 0 "R5" V 5380 1600 50  0000 C CNN
 F 1 "10k 5W" V 5200 1600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L19mm-W8mm-H8mm-p25mm" V 5230 1600 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" V 5230 1600 50  0001 C CNN
 F 3 "" H 5300 1600 50  0000 C CNN
 	1    5300 1600
 	0    1    1    0   
@@ -83,7 +84,7 @@ U 1 1 583EB1AE
 P 4900 1600
 F 0 "R3" V 4980 1600 50  0000 C CNN
 F 1 "10k 5W" V 4800 1600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L19mm-W8mm-H8mm-p25mm" V 4830 1600 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" V 4830 1600 50  0001 C CNN
 F 3 "" H 4900 1600 50  0000 C CNN
 	1    4900 1600
 	0    1    1    0   
@@ -94,7 +95,7 @@ U 1 1 583EB1DF
 P 4500 2000
 F 0 "R2" V 4580 2000 50  0000 C CNN
 F 1 "10k 5W" V 4400 2000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L19mm-W8mm-H8mm-p25mm" V 4430 2000 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" V 4430 2000 50  0001 C CNN
 F 3 "" H 4500 2000 50  0000 C CNN
 	1    4500 2000
 	0    1    1    0   
@@ -105,7 +106,7 @@ U 1 1 583EB204
 P 5300 2000
 F 0 "R6" V 5380 2000 50  0000 C CNN
 F 1 "10k 5W" V 5200 2000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L19mm-W8mm-H8mm-p25mm" V 5230 2000 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" V 5230 2000 50  0001 C CNN
 F 3 "" H 5300 2000 50  0000 C CNN
 	1    5300 2000
 	0    1    1    0   
@@ -116,7 +117,7 @@ U 1 1 583EB232
 P 4900 2000
 F 0 "R4" V 4980 2000 50  0000 C CNN
 F 1 "10k 5W" V 4800 2000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L19mm-W8mm-H8mm-p25mm" V 4830 2000 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" V 4830 2000 50  0001 C CNN
 F 3 "" H 4900 2000 50  0000 C CNN
 	1    4900 2000
 	0    1    1    0   
@@ -148,7 +149,7 @@ L R R7
 U 1 1 583EB372
 P 7450 2450
 F 0 "R7" V 7530 2450 50  0000 C CNN
-F 1 "100" V 7350 2450 50  0000 C CNN
+F 1 "100" V 7450 2450 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 7380 2450 50  0001 C CNN
 F 3 "" H 7450 2450 50  0000 C CNN
 	1    7450 2450
@@ -160,10 +161,10 @@ U 1 1 583EB545
 P 3900 1750
 F 0 "P2" H 3900 1900 50  0000 C CNN
 F 1 "CONN_01X02" V 4000 1750 50  0000 C CNN
-F 2 "LEM:PhoenixContact-41A-630V-2p" H 3900 1750 50  0001 C CNN
+F 2 "PhoenixContact:GMKDS_3_2p_750-1731022" H 3900 1750 50  0001 C CNN
 F 3 "" H 3900 1750 50  0000 C CNN
 	1    3900 1750
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X03 P1
@@ -171,7 +172,7 @@ U 1 1 583EB6EF
 P 1000 2000
 F 0 "P1" H 1000 2200 50  0000 C CNN
 F 1 "CONN_01X03" V 1100 2000 50  0000 C CNN
-F 2 "phoenix:PhoenixContact_MSTBA-G_03x5.00mm_Angled" H 1000 2000 50  0001 C CNN
+F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 1000 2000 50  0001 C CNN
 F 3 "" H 1000 2000 50  0000 C CNN
 	1    1000 2000
 	-1   0    0    -1  
@@ -225,8 +226,8 @@ L CP C4
 U 1 1 583EBB43
 P 2450 2300
 F 0 "C4" H 2475 2400 50  0000 L CNN
-F 1 "100u" H 2475 2200 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D22_L41_P10" H 2488 2150 50  0001 C CNN
+F 1 "10u" H 2475 2200 50  0000 L CNN
+F 2 "Capacitors_THT:C_Radial_D5_L11_P2.5" H 2488 2150 50  0001 C CNN
 F 3 "" H 2450 2300 50  0000 C CNN
 	1    2450 2300
 	1    0    0    -1  
@@ -236,8 +237,8 @@ L CP C3
 U 1 1 583EBBE1
 P 2450 1750
 F 0 "C3" H 2475 1850 50  0000 L CNN
-F 1 "100u" H 2475 1650 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D22_L41_P10" H 2488 1600 50  0001 C CNN
+F 1 "10u" H 2475 1650 50  0000 L CNN
+F 2 "Capacitors_THT:C_Radial_D5_L11_P2.5" H 2488 1600 50  0001 C CNN
 F 3 "" H 2450 1750 50  0000 C CNN
 	1    2450 1750
 	1    0    0    -1  
@@ -274,7 +275,7 @@ U 1 1 583EC98A
 P 8050 2450
 F 0 "P3" H 8050 2600 50  0000 C CNN
 F 1 "CONN_01X02" V 8150 2450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8050 2450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 8050 2450 50  0001 C CNN
 F 3 "" H 8050 2450 50  0000 C CNN
 	1    8050 2450
 	1    0    0    -1  
@@ -322,7 +323,7 @@ U 1 1 583ED366
 P 10750 1750
 F 0 "P4" H 10750 1900 50  0000 C CNN
 F 1 "CONN_01X02" V 10850 1750 50  0000 C CNN
-F 2 "phoenix:PhoenixContact_MSTBA-G_02x5.00mm_Angled" H 10750 1750 50  0001 C CNN
+F 2 "PhoenixContact:MSTBA_25_2p_G_508-1757242" H 10750 1750 50  0001 C CNN
 F 3 "" H 10750 1750 50  0000 C CNN
 	1    10750 1750
 	1    0    0    -1  
@@ -361,7 +362,7 @@ F 3 "" H 8750 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV1
+L POT-RESCUE-Volt_sensor RV1
 U 1 1 583ED8DC
 P 8750 1600
 F 0 "RV1" H 8750 1520 50  0000 C CNN
@@ -399,7 +400,7 @@ $Comp
 L R R10
 U 1 1 583EE3A2
 P 9050 2600
-F 0 "R10" V 9130 2600 50  0000 C CNN
+F 0 "R10" V 9050 2600 50  0000 C CNN
 F 1 "10k" V 8950 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 8980 2600 50  0001 C CNN
 F 3 "" H 9050 2600 50  0000 C CNN
@@ -447,7 +448,7 @@ Place C5 near \nU2 supply pins
 Text Notes 7800 2150 0    60   ~ 0
 Measurement/\nbypass point
 $Comp
-L POT RV2
+L POT-RESCUE-Volt_sensor RV2
 U 1 1 58501A90
 P 9950 2300
 F 0 "RV2" H 9950 2220 50  0000 C CNN
