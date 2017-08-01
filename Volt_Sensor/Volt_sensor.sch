@@ -50,7 +50,7 @@ U 1 1 583EA5FB
 P 6150 1800
 F 0 "U1" H 5800 2200 60  0000 C CNN
 F 1 "LV-25-P" H 6350 1400 60  0000 C CNN
-F 2 "LEM:LV25-P" H 6100 1800 60  0001 C CNN
+F 2 "Hall-Effect_Transducers_LEM:LV25-P" H 6100 1800 60  0001 C CNN
 F 3 "" H 6100 1800 60  0001 C CNN
 	1    6150 1800
 	1    0    0    -1  
@@ -361,17 +361,6 @@ F 3 "" H 8750 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT-RESCUE-Volt_sensor RV1
-U 1 1 583ED8DC
-P 8750 1600
-F 0 "RV1" H 8750 1520 50  0000 C CNN
-F 1 "100k" H 8750 1600 50  0000 C CNN
-F 2 "potentiometer:Potentiometer_Trimmer-Suntan-TSR-3386P" H 8750 1600 50  0001 C CNN
-F 3 "" H 8750 1600 50  0000 C CNN
-	1    8750 1600
-	0    1    1    0   
-$EndComp
-$Comp
 L VCC #PWR010
 U 1 1 583ED9DE
 P 8750 900
@@ -447,15 +436,15 @@ Place C5 near \nU2 supply pins
 Text Notes 7800 2150 0    60   ~ 0
 Measurement/\nbypass point
 $Comp
-L POT-RESCUE-Volt_sensor RV2
+L POT RV2
 U 1 1 58501A90
 P 9950 2300
-F 0 "RV2" H 9950 2220 50  0000 C CNN
-F 1 "50k" H 9950 2300 50  0000 C CNN
+F 0 "RV2" V 9850 2300 50  0000 C CNN
+F 1 "50k" V 9950 2300 50  0000 C CNN
 F 2 "potentiometer:Potentiometer_Trimmer-Suntan-TSR-3386P" H 9950 2300 50  0001 C CNN
 F 3 "" H 9950 2300 50  0000 C CNN
 	1    9950 2300
-	-1   0    0    1   
+	0    1    1    0   
 $EndComp
 Text Notes 9850 2800 0    60   ~ 0
 Adjustable \nsignal\namplification
@@ -646,4 +635,15 @@ Text Notes 1200 2200 0    60   ~ 0
 - 15V DC
 Text Notes 1200 1850 0    60   ~ 0
 + 15V DC
+$Comp
+L POT RV1
+U 1 1 5980BD14
+P 8750 1600
+F 0 "RV1" V 8650 1600 50  0000 C CNN
+F 1 "100k" V 8750 1600 50  0000 C CNN
+F 2 "" H 8750 1600 50  0001 C CNN
+F 3 "" H 8750 1600 50  0001 C CNN
+	1    8750 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
