@@ -441,7 +441,7 @@ U 1 1 58501A90
 P 9950 2300
 F 0 "RV2" V 9850 2300 50  0000 C CNN
 F 1 "50k" V 9950 2300 50  0000 C CNN
-F 2 "potentiometer:Potentiometer_Trimmer-Suntan-TSR-3386P" H 9950 2300 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_ACP_CA6v_Horizontal" H 9950 2300 50  0001 C CNN
 F 3 "" H 9950 2300 50  0000 C CNN
 	1    9950 2300
 	0    1    1    0   
@@ -641,7 +641,7 @@ U 1 1 5980BD14
 P 8750 1600
 F 0 "RV1" V 8650 1600 50  0000 C CNN
 F 1 "100k" V 8750 1600 50  0000 C CNN
-F 2 "" H 8750 1600 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_ACP_CA6v_Horizontal" H 8750 1600 50  0001 C CNN
 F 3 "" H 8750 1600 50  0001 C CNN
 	1    8750 1600
 	1    0    0    -1  
