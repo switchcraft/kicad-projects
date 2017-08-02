@@ -1,4 +1,4 @@
-update=Wed 02 Aug 2017 05:32:28 PM CEST
+update=Wed 02 Aug 2017 06:59:53 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -71,3 +71,4 @@ LibName29=valves
 LibName30=Avago
 LibName31=Mornsun
 LibName32=Power_ports
+LibName33=Silicon_labs
