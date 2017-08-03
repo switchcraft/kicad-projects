@@ -890,7 +890,7 @@
     (pad 3 thru_hole oval (at 10 0 180) (size 2.1 3.6) (drill 1.4) (layers *.Cu *.Mask))
     (pad 4 thru_hole oval (at 15 0 180) (size 2.1 3.6) (drill 1.4) (layers *.Cu *.Mask)
       (net 3 +15V))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/PhoenixContact.3dshapes/MSTBA_25_4p_G_508-1757268.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/PhoenixContact.3dshapes/MSTBA_25_4p_G_508-1757268.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -941,7 +941,7 @@
       (net 19 GND_ISO))
     (pad 3 thru_hole oval (at 10 0) (size 2.1 3.6) (drill 1.4) (layers *.Cu *.Mask)
       (net 18 VCC_ISO))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/PhoenixContact.3dshapes/MSTBA_25_3p_G_508-1757488.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/PhoenixContact.3dshapes/MSTBA_25_3p_G_508-1757488.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1034,7 +1034,7 @@
       (net 17 "Net-(J4-Pad2)"))
     (pad 3 thru_hole oval (at 10 0) (size 2.1 3.6) (drill 1.4) (layers *.Cu *.Mask)
       (net 19 GND_ISO))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/PhoenixContact.3dshapes/MSTBA_25_3p_G_508-1757488.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/PhoenixContact.3dshapes/MSTBA_25_3p_G_508-1757488.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1482,7 +1482,7 @@
       (net 19 GND_ISO))
     (pad 7 thru_hole circle (at 7.62 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 18 VCC_ISO))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/mornsun.3dshapes/QA01c.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/mornsun.3dshapes/QA01c.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
