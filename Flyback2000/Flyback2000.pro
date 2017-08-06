@@ -1,4 +1,4 @@
-update=2017 August 06, Sunday 11:44:16
+update=Sun 06 Aug 2017 07:20:46 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [schematic_editor]
 version=1
-PageLayoutDescrFile=../../kicad-lib/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
+PageLayoutDescrFile=$SWITCHCRAFTLIB/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../../kicad-lib/library
+LibDir=$SWITCHCRAFTLIB/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -68,3 +68,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=Texas
