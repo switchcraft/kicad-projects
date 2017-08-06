@@ -1,4 +1,4 @@
-update=Tue 18 Jul 2017 11:10:43 PM CEST
+update=2017 August 06, Sunday 11:44:16
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,21 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=../../kicad-lib/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=../../kicad-lib/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,15 +68,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=../../kicad-lib/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
