@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/eirik/media/dokumenter/Switchcraft/development/git/kicad-projects/Gate_drive_module_Si8285/Gate_driver.sch)
-    (date "Fri 04 Aug 2017 02:36:37 PM CEST")
+    (date "Tue 08 Aug 2017 04:32:23 PM CEST")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
