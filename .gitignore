@@ -1,6 +1,8 @@
-*/*
+
 !*.pro
 !*.sch
 !*.net
 !*.kicad_pcb
 !*.md
+*/*
+!*/gerber/
