@@ -29,6 +29,69 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Texas
+LIBS:Power_Management
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:nxp
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
 LIBS:Flyback2000-cache
 EELAYER 25 0
 EELAYER END
@@ -562,17 +625,6 @@ F 3 "" H 9250 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_Thyristor_AGK D10
-U 1 1 5960774D
-P 9550 5100
-F 0 "D10" H 9625 5125 50  0000 L CNN
-F 1 "Q_Thyristor_AGK" H 9625 5050 50  0000 L CNN
-F 2 "" V 9550 5100 50  0001 C CNN
-F 3 "" V 9550 5100 50  0001 C CNN
-	1    9550 5100
-	1    0    0    1   
-$EndComp
-$Comp
 L 2N7002 Q4
 U 1 1 59608CB6
 P 6500 4750
@@ -806,12 +858,12 @@ $EndComp
 $Comp
 L R R5
 U 1 1 59610C21
-P 3400 4650
-F 0 "R5" V 3480 4650 50  0000 C CNN
-F 1 "R" V 3400 4650 50  0000 C CNN
-F 2 "" V 3330 4650 50  0001 C CNN
-F 3 "" H 3400 4650 50  0001 C CNN
-	1    3400 4650
+P 4100 4100
+F 0 "R5" V 4180 4100 50  0000 C CNN
+F 1 "R" V 4100 4100 50  0000 C CNN
+F 2 "" V 4030 4100 50  0001 C CNN
+F 3 "" H 4100 4100 50  0001 C CNN
+	1    4100 4100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -880,6 +932,51 @@ F 3 "" H 1900 4200 50  0001 C CNN
 	1    1900 4200
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR4
+U 1 1 59612F6F
+P 1550 4800
+F 0 "#PWR4" H 1550 4550 50  0001 C CNN
+F 1 "GND" H 1550 4650 50  0000 C CNN
+F 2 "" H 1550 4800 50  0001 C CNN
+F 3 "" H 1550 4800 50  0001 C CNN
+	1    1550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TL431LP D?
+U 1 1 59AC6129
+P 9550 5050
+F 0 "D?" H 9450 5150 50  0000 C CNN
+F 1 "TL431LP" H 9550 4950 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 9550 4900 50  0001 C CIN
+F 3 "" H 9550 5050 50  0001 C CNN
+	1    9550 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TL494 U?
+U 1 1 59AC8A62
+P 2900 3350
+F 0 "U?" H 2600 4550 60  0000 C CNN
+F 1 "TL494" H 2900 2250 60  0000 C CNN
+F 2 "" H 2900 3850 60  0001 C CNN
+F 3 "" H 2900 3850 60  0001 C CNN
+	1    2900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 59AC9927
+P 3800 3450
+F 0 "#PWR?" H 3800 3300 50  0001 C CNN
+F 1 "VCC" H 3800 3600 50  0000 C CNN
+F 2 "" H 3800 3450 50  0001 C CNN
+F 3 "" H 3800 3450 50  0001 C CNN
+	1    3800 3450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 4400
 Wire Wire Line
 	1300 1100 2200 1100
 Wire Wire Line
@@ -995,11 +1092,11 @@ Wire Wire Line
 	7650 2450 10400 2450
 Connection ~ 8500 2450
 Wire Wire Line
-	8250 2150 8500 2150
+	8250 2150 10400 2150
 Wire Wire Line
 	10400 2550 8250 2550
 Wire Wire Line
-	7650 2850 8500 2850
+	7650 2850 10400 2850
 Connection ~ 8500 2850
 Wire Wire Line
 	10400 2450 10400 2550
@@ -1009,10 +1106,6 @@ Wire Wire Line
 Connection ~ 10400 2500
 Connection ~ 9700 2550
 Connection ~ 8500 2550
-Wire Wire Line
-	9700 2150 10400 2150
-Wire Wire Line
-	9700 2850 10400 2850
 Wire Wire Line
 	8250 2950 9000 2950
 Connection ~ 8500 2950
@@ -1061,14 +1154,11 @@ Connection ~ 9000 4800
 Wire Wire Line
 	9000 5650 9550 5650
 Wire Wire Line
-	9550 5650 9550 5250
+	9550 5650 9550 5150
 Wire Wire Line
 	9250 5750 9250 5650
 Connection ~ 9250 5650
 Connection ~ 9550 4800
-Wire Wire Line
-	9000 5000 9400 5000
-Connection ~ 9000 5000
 Wire Wire Line
 	9000 5650 9000 5500
 Wire Wire Line
@@ -1098,8 +1188,6 @@ Wire Wire Line
 	2550 6200 2550 6500
 Wire Wire Line
 	3000 6000 2850 6000
-Wire Wire Line
-	2550 4650 2550 5800
 Wire Wire Line
 	5300 3250 5300 3400
 Wire Wire Line
@@ -1136,15 +1224,6 @@ Connection ~ 5250 5550
 Wire Wire Line
 	5250 5250 5250 5650
 Wire Wire Line
-	5450 3750 3850 3750
-Wire Wire Line
-	3850 3750 3850 4650
-Wire Wire Line
-	3850 4650 3550 4650
-Wire Wire Line
-	2400 4650 3250 4650
-Connection ~ 2550 4650
-Wire Wire Line
 	6600 4950 6600 6250
 Wire Wire Line
 	4250 5900 6600 5900
@@ -1173,11 +1252,11 @@ Wire Wire Line
 Wire Wire Line
 	1550 3950 1550 3750
 Wire Wire Line
-	1550 3750 2050 3750
+	1550 3750 2350 3750
 Wire Wire Line
 	1900 4050 1900 3900
 Wire Wire Line
-	1900 3900 2050 3900
+	1900 3900 2200 3900
 Wire Wire Line
 	1900 4450 1900 4350
 Wire Wire Line
@@ -1188,17 +1267,6 @@ Wire Wire Line
 	1700 4450 1700 4650
 Connection ~ 1700 4650
 Connection ~ 1700 4450
-$Comp
-L GND #PWR4
-U 1 1 59612F6F
-P 1550 4800
-F 0 "#PWR4" H 1550 4550 50  0001 C CNN
-F 1 "GND" H 1550 4650 50  0000 C CNN
-F 2 "" H 1550 4800 50  0001 C CNN
-F 3 "" H 1550 4800 50  0001 C CNN
-	1    1550 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1550 4800 1550 4650
 Connection ~ 1550 4650
@@ -1207,23 +1275,94 @@ Wire Wire Line
 Wire Wire Line
 	11000 7050 700  7050
 Wire Wire Line
-	700  7050 700  2400
+	700  7050 700  2300
 Wire Wire Line
-	700  2400 1950 2400
+	700  2300 2350 2300
 Connection ~ 10400 4500
 Wire Wire Line
 	6600 6800 6600 6550
 Wire Wire Line
 	4600 6800 4600 6700
+Connection ~ 9700 2850
+Connection ~ 9700 2150
+Connection ~ 8500 2150
+Connection ~ 9000 5000
+Wire Wire Line
+	3450 4100 3950 4100
+Wire Wire Line
+	4250 4100 5000 4100
+Wire Wire Line
+	5000 4100 5000 3750
+Wire Wire Line
+	5000 3750 5450 3750
+Wire Wire Line
+	2550 5800 2550 5100
+Wire Wire Line
+	2550 5100 3750 5100
+Wire Wire Line
+	3750 5100 3750 4100
+Connection ~ 3750 4100
+Wire Wire Line
+	3800 3800 3450 3800
+Wire Wire Line
+	3800 3500 3450 3500
+Connection ~ 3800 3500
+Wire Wire Line
+	3450 2900 3750 2900
+Wire Wire Line
+	3750 2900 3750 2600
+Wire Wire Line
+	3750 2600 3450 2600
+Wire Wire Line
+	3800 3450 3800 3800
+Wire Wire Line
+	3450 3200 4050 3200
+Wire Wire Line
+	4050 2300 4050 3300
+Wire Wire Line
+	4050 2300 3450 2300
 $Comp
-L TL494 U?
-U 1 1 59875519
-P 2900 2950
-F 0 "U?" H 2600 3600 60  0000 C CNN
-F 1 "TL494" H 2700 2250 60  0000 C CNN
-F 2 "" H 2900 2900 60  0001 C CNN
-F 3 "" H 2900 2900 60  0001 C CNN
-	1    2900 2950
+L GND #PWR?
+U 1 1 59ACC1FD
+P 4050 3300
+F 0 "#PWR?" H 4050 3050 50  0001 C CNN
+F 1 "GND" H 4050 3150 50  0000 C CNN
+F 2 "" H 4050 3300 50  0001 C CNN
+F 3 "" H 4050 3300 50  0001 C CNN
+	1    4050 3300
 	1    0    0    -1  
 $EndComp
+Connection ~ 4050 3200
+Wire Wire Line
+	2350 2600 2250 2600
+Wire Wire Line
+	2250 2600 2250 2900
+Wire Wire Line
+	2250 2900 2350 2900
+$Comp
+L VDD #PWR?
+U 1 1 59ACD23E
+P 3750 2600
+F 0 "#PWR?" H 3750 2450 50  0001 C CNN
+F 1 "VDD" H 3750 2750 50  0000 C CNN
+F 2 "" H 3750 2600 50  0001 C CNN
+F 3 "" H 3750 2600 50  0001 C CNN
+	1    3750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3600 2050 3200
+Wire Wire Line
+	2050 3200 2350 3200
+Wire Wire Line
+	2350 3750 2350 3800
+Wire Wire Line
+	2200 3900 2200 3500
+Wire Wire Line
+	2200 3500 2350 3500
+Wire Wire Line
+	2350 4100 2100 4100
+Wire Wire Line
+	2100 4100 2100 4650
+NoConn ~ 2350 4400
 $EndSCHEMATC
