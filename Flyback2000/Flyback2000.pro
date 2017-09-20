@@ -1,4 +1,4 @@
-update=2017 September 03, Sunday 22:00:11
+update=2017 September 08, Friday 14:13:41
 version=1
 last_client=kicad
 [pcbnew]
@@ -132,3 +132,4 @@ LibName90=Worldsemi
 LibName91=Xicor
 LibName92=zetex
 LibName93=Zilog
+LibName94=custom_transformers
