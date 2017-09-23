@@ -126,10 +126,6 @@ F 3 "" H 9600 2300 50  0001 C CNN
 $EndComp
 Text Notes 9000 2650 0    60   ~ 0
 Transistor drive output
-Text Notes 700  6850 0    60   ~ 0
-V_LED1+ and V_LED2+ should not be connected.
-Text Notes 700  6950 0    60   ~ 0
-They are only ment for testing.
 $Comp
 L C C11
 U 1 1 5983454A
@@ -154,9 +150,9 @@ F 3 "" H 9700 6250 50  0001 C CNN
 $EndComp
 Text Notes 4450 700  0    60   ~ 0
 Isolation barrier (3 kV)
-Text Notes 700  6300 0    60   ~ 0
+Text Notes 550  6350 0    60   ~ 0
 This gate-drive module does not incorporate dead-time.
-Text Notes 700  6400 0    60   ~ 0
+Text Notes 550  6450 0    60   ~ 0
 If needed it must be added externally (it is not needed for everything, e.g. brake-chopper).
 $Comp
 L C C2
@@ -501,7 +497,7 @@ F 3 "" H 2200 1400 50  0001 C CNN
 	1    2200 1400
 	1    0    0    -1  
 $EndComp
-Text Notes 700  5900 0    60   ~ 0
+Text Notes 550  5950 0    60   ~ 0
 Capasitors are low ESR cheramic types.
 $Comp
 L CONN_01X03 J3
@@ -552,7 +548,7 @@ Alternative isolated power connector
 Text Notes 700  650  0    60   ~ 0
 Switchcraft standard gate drive interface.
 Text Notes 700  750  0    60   ~ 0
-(I hope we can manage to keep this as a standard)
+(I hope we can manage to make a standard out of this design)
 Text Notes 700  950  0    60   ~ 0
 5 V VCC DC input. Optional +/- 15 V DC. TTL level signals.
 $Comp
@@ -863,8 +859,8 @@ Wire Wire Line
 Wire Wire Line
 	3400 1700 4150 1700
 Connection ~ 3050 1450
-Text Notes 700  6650 0    60   ~ 0
-Primary supply current consumption is 10mA, secondary is 20mA + average gate current.
+Text Notes 550  6700 0    60   ~ 0
+Si8285 Primary supply current consumption is 10mA, secondary is 20mA + average gate current.
 Text Notes 5050 5350 0    60   ~ 0
 Secondary supply is +20 V, and -4 V @ maximum 100 mA.
 $Comp

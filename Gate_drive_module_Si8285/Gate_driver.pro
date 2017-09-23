@@ -1,19 +1,9 @@
-update=Wed 02 Aug 2017 06:59:53 PM CEST
+update=Sat 23 Sep 2017 02:22:40 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=$SWITCHCRAFTLIB/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=$SWITCHCRAFTLIB/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
@@ -72,3 +62,13 @@ LibName30=Avago
 LibName31=Mornsun
 LibName32=Power_ports
 LibName33=Silicon_labs
+[schematic_editor]
+version=1
+PageLayoutDescrFile=$SWITCHCRAFTLIB/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
+PlotDirectoryName=pdf
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
