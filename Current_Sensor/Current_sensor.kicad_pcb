@@ -3,9 +3,9 @@
   (general
     (links 73)
     (no_connects 0)
-    (area 49.949999 87.949999 145.050001 158.050001)
+    (area 36.322 81.372723 156.186 160.149)
     (thickness 1.6)
-    (drawings 39)
+    (drawings 40)
     (tracks 173)
     (zones 0)
     (modules 46)
@@ -2961,6 +2961,9 @@
     )
   )
 
+  (gr_text "Pins are mirrored. \nFootprint error." (at 128.372 128.784) (layer F.Cu)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "Not that anyone cares what I say, but the restaurant is at the *other* end of the Universe. " (at 100.584 92.71) (layer B.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
   )
