@@ -1,4 +1,4 @@
-update=10.12.2017 15.24.15
+update=2017 December 10, Sunday 20:02:19
 version=1
 last_client=kicad
 [cvpcb]
@@ -72,3 +72,4 @@ LibName30=Allegro
 LibName31=Avago
 LibName32=Xppower
 LibName33=Semikron
+LibName34=Power_ports
