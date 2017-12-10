@@ -1,4 +1,4 @@
-update=2017 December 10, Sunday 13:39:26
+update=2017 December 10, Sunday 13:58:11
 version=1
 last_client=kicad
 [cvpcb]
@@ -68,8 +68,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/Users/Yngve/Dropbox/Drivesprosjekt/KiCad/#LIB/Semikron
-LibName31=/Users/Yngve/Dropbox/Drivesprosjekt/KiCad/#LIB/LEM
-LibName32=/Users/Yngve/git/Switchcraft/kicad-lib/library/Allegro
-LibName33=/Users/Yngve/git/Switchcraft/kicad-lib/library/Avago
-LibName34=/Users/Yngve/git/Switchcraft/kicad-lib/library/Xppower
+LibName30=Allegro
+LibName31=Avago
+LibName32=Xppower
