@@ -1,4 +1,4 @@
-update=2017 December 09, Saturday 14:33:13
+update=2017 December 10, Sunday 13:39:26
 version=1
 last_client=kicad
 [cvpcb]
@@ -37,7 +37,7 @@ ModuleOutlineThickness=0.15
 version=1
 [eeschema]
 version=1
-LibDir=../Current_Sensor
+LibDir=../../kicad-lib/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -71,3 +71,5 @@ LibName29=valves
 LibName30=/Users/Yngve/Dropbox/Drivesprosjekt/KiCad/#LIB/Semikron
 LibName31=/Users/Yngve/Dropbox/Drivesprosjekt/KiCad/#LIB/LEM
 LibName32=/Users/Yngve/git/Switchcraft/kicad-lib/library/Allegro
+LibName33=/Users/Yngve/git/Switchcraft/kicad-lib/library/Avago
+LibName34=/Users/Yngve/git/Switchcraft/kicad-lib/library/Xppower
