@@ -266,45 +266,23 @@ Text Notes 7150 5550 0    60   ~ 0
 $Comp
 L CP C11
 U 1 1 59D66DDF
-P 7500 5900
-F 0 "C11" H 7525 6000 50  0000 L CNN
-F 1 "CP" H 7525 5800 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 7538 5750 50  0001 C CNN
-F 3 "" H 7500 5900 50  0001 C CNN
-	1    7500 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP C12
-U 1 1 59D66E75
-P 7500 6450
-F 0 "C12" H 7525 6550 50  0000 L CNN
-F 1 "CP" H 7525 6350 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 7538 6300 50  0001 C CNN
-F 3 "" H 7500 6450 50  0001 C CNN
-	1    7500 6450
+P 7500 6150
+F 0 "C11" H 7525 6250 50  0000 L CNN
+F 1 "CP" H 7525 6050 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 7538 6000 50  0001 C CNN
+F 3 "" H 7500 6150 50  0001 C CNN
+	1    7500 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C13
 U 1 1 59D67004
-P 7850 5900
-F 0 "C13" H 7875 6000 50  0000 L CNN
-F 1 "C" H 7875 5800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7888 5750 50  0001 C CNN
-F 3 "" H 7850 5900 50  0001 C CNN
-	1    7850 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C14
-U 1 1 59D670A6
-P 7850 6450
-F 0 "C14" H 7875 6550 50  0000 L CNN
-F 1 "C" H 7875 6350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7888 6300 50  0001 C CNN
-F 3 "" H 7850 6450 50  0001 C CNN
-	1    7850 6450
+P 7850 6150
+F 0 "C13" H 7875 6250 50  0000 L CNN
+F 1 "C" H 7875 6050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7888 6000 50  0001 C CNN
+F 3 "" H 7850 6150 50  0001 C CNN
+	1    7850 6150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -655,9 +633,9 @@ F 3 "" H 9750 6200 60  0001 C CNN
 	1    9800 6200
 	1    0    0    -1  
 $EndComp
-Text GLabel 10550 5950 2    60   Input ~ 0
+Text GLabel 10700 5950 2    60   Input ~ 0
 Vdd1
-Text GLabel 10550 6400 2    60   Input ~ 0
+Text GLabel 10700 6400 2    60   Input ~ 0
 DC-
 NoConn ~ 9200 6500
 $Comp
@@ -681,6 +659,19 @@ F 2 "LEDs:LED_1206_HandSoldering" H 9250 1500 50  0001 C CNN
 F 3 "" H 9250 1500 50  0001 C CNN
 	1    9250 1500
 	0    -1   -1   0   
+$EndComp
+Text Notes 9600 5350 0    60   ~ 0
+Isolated 5V to iso. op-amp
+$Comp
+L C C?
+U 1 1 5A2FC847
+P 10550 6150
+F 0 "C?" H 10575 6250 50  0000 L CNN
+F 1 "10uF" H 10575 6050 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L16.5mm_W8.7mm_P15.00mm_MKT" H 10588 6000 50  0001 C CNN
+F 3 "" H 10550 6150 50  0001 C CNN
+	1    10550 6150
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3750 1850 3750 1650
@@ -783,17 +774,17 @@ Wire Notes Line
 Wire Notes Line
 	1750 550  2400 550 
 Wire Wire Line
-	7500 5750 7500 5650
+	7500 5650 7500 6000
 Wire Wire Line
 	7100 5650 8700 5650
 Wire Wire Line
-	7850 5650 7850 5750
+	7850 5650 7850 6000
 Wire Wire Line
-	7850 6750 7850 6600
+	7850 6300 7850 6750
 Wire Wire Line
 	7100 6750 8650 6750
 Wire Wire Line
-	7500 6750 7500 6600
+	7500 6300 7500 6750
 Wire Wire Line
 	7100 6100 7100 5650
 Connection ~ 7500 5650
@@ -802,10 +793,6 @@ Wire Wire Line
 Connection ~ 7500 6750
 Connection ~ 7850 5650
 Connection ~ 7850 6750
-Wire Wire Line
-	7500 6050 7500 6300
-Wire Wire Line
-	7850 6050 7850 6300
 Wire Wire Line
 	8200 5750 8200 5650
 Connection ~ 8200 5650
@@ -1141,9 +1128,9 @@ Wire Wire Line
 	8450 6350 9200 6350
 Connection ~ 8450 6750
 Wire Wire Line
-	10450 5950 10550 5950
+	10450 5950 10700 5950
 Wire Wire Line
-	10450 6400 10550 6400
+	10450 6400 10700 6400
 Wire Notes Line
 	6700 5200 6700 6950
 Wire Notes Line
@@ -1152,6 +1139,10 @@ Wire Notes Line
 	11050 6950 11050 5200
 Wire Notes Line
 	11050 5200 6700 5200
-Text Notes 9600 5350 0    60   ~ 0
-Isolated 5V to iso. op-amp
+Wire Wire Line
+	10550 5950 10550 6000
+Connection ~ 10550 5950
+Wire Wire Line
+	10550 6400 10550 6300
+Connection ~ 10550 6400
 $EndSCHEMATC
