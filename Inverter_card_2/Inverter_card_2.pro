@@ -6,7 +6,7 @@ version=1
 NetIExt=net
 [schematic_editor]
 version=1
-PageLayoutDescrFile=/Users/Yngve/git/Switchcraft/kicad-lib/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
+PageLayoutDescrFile=$SWITCHCRAFTLIB/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -16,7 +16,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [pcbnew]
 version=1
-PageLayoutDescrFile=/Users/Yngve/git/Switchcraft/kicad-lib/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
+PageLayoutDescrFile=$SWITCHCRAFTLIB/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
 LastNetListRead=SiC_led.net
 PadDrill=0.6
 PadDrillOvalY=0.6

@@ -28,8 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Semikron
-LIBS:LEM
 LIBS:Allegro
 LIBS:Avago
 LIBS:Xppower
@@ -184,25 +182,25 @@ F 3 "" H 3750 2000 50  0001 C CNN
 	1    3750 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 850  0    60   Input ~ 0
+Text GLabel 1500 850  0    60   Output ~ 0
 DC+
-Text GLabel 1500 2600 0    60   Input ~ 0
+Text GLabel 1500 2600 0    60   Output ~ 0
 DC-
 Text GLabel 850  5750 0    60   Input ~ 0
 DC+
 Text GLabel 850  6400 0    60   Input ~ 0
 DC-
-Text GLabel 850  4350 0    60   Input ~ 0
+Text GLabel 850  4350 0    60   Output ~ 0
 T1_g
-Text GLabel 850  4550 0    60   Input ~ 0
+Text GLabel 850  4550 0    60   Output ~ 0
 T3_g
-Text GLabel 850  4750 0    60   Input ~ 0
+Text GLabel 850  4750 0    60   Output ~ 0
 T5_g
-Text GLabel 850  5000 0    60   Input ~ 0
+Text GLabel 850  5000 0    60   Output ~ 0
 T2_g
-Text GLabel 850  5200 0    60   Input ~ 0
+Text GLabel 850  5200 0    60   Output ~ 0
 T4_g
-Text GLabel 850  5400 0    60   Input ~ 0
+Text GLabel 850  5400 0    60   Output ~ 0
 T6_g
 Text GLabel 4850 1200 0    60   Input ~ 0
 T1_g
@@ -1035,20 +1033,14 @@ Wire Wire Line
 Wire Wire Line
 	7400 1600 7200 1600
 Connection ~ 7200 1600
-Text GLabel 4700 1750 0    60   Input ~ 0
+Text GLabel 5000 1750 2    60   Output ~ 0
 U
-Wire Wire Line
-	4700 1750 4900 1750
 Connection ~ 4900 1750
-Text GLabel 5850 1750 0    60   Input ~ 0
+Text GLabel 6150 1750 2    60   Output ~ 0
 V
-Wire Wire Line
-	5850 1750 6050 1750
 Connection ~ 6050 1750
-Text GLabel 7000 1750 0    60   Input ~ 0
+Text GLabel 7350 1750 2    60   Output ~ 0
 W
-Wire Wire Line
-	7000 1750 7200 1750
 Connection ~ 7200 1750
 Text GLabel 3150 4300 0    60   Input ~ 0
 U
@@ -1115,4 +1107,10 @@ Wire Wire Line
 	10400 3600 10200 3600
 Wire Wire Line
 	8700 3650 8950 3650
+Wire Wire Line
+	7200 1750 7350 1750
+Wire Wire Line
+	6050 1750 6150 1750
+Wire Wire Line
+	4900 1750 5000 1750
 $EndSCHEMATC
