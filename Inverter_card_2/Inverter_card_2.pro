@@ -1,4 +1,4 @@
-update=2017 December 10, Sunday 13:58:11
+update=10.12.2017 15.24.15
 version=1
 last_client=kicad
 [cvpcb]
@@ -71,3 +71,4 @@ LibName29=valves
 LibName30=Allegro
 LibName31=Avago
 LibName32=Xppower
+LibName33=Semikron
