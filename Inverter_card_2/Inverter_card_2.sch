@@ -31,6 +31,8 @@ LIBS:valves
 LIBS:Semikron
 LIBS:LEM
 LIBS:Allegro
+LIBS:Avago
+LIBS:Xppower
 LIBS:Inverter_card_2-cache
 EELAYER 25 0
 EELAYER END
@@ -38,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Inverter Connection Card with Current Sensor"
-Date "2017-07-01"
+Date "2017-12-09"
 Rev "2"
 Comp "Switchcraft"
 Comment1 "Added current sensors and changed DC-link capacitor to film type"
@@ -182,74 +184,6 @@ F 3 "" H 3750 2000 50  0001 C CNN
 	1    3750 2000
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_01X03 P5
-U 1 1 597B30A0
-P 6650 1250
-F 0 "P5" H 6650 1450 50  0000 C CNN
-F 1 "CONN_01X03" V 6750 1250 50  0000 C CNN
-F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 6650 1250 50  0001 C CNN
-F 3 "" H 6650 1250 50  0000 C CNN
-	1    6650 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X03 P3
-U 1 1 597B30E4
-P 5900 1250
-F 0 "P3" H 5900 1450 50  0000 C CNN
-F 1 "CONN_01X03" V 6000 1250 50  0000 C CNN
-F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 5900 1250 50  0001 C CNN
-F 3 "" H 5900 1250 50  0000 C CNN
-	1    5900 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X03 P2
-U 1 1 597B312B
-P 5100 2250
-F 0 "P2" H 5100 2450 50  0000 C CNN
-F 1 "CONN_01X03" V 5200 2250 50  0000 C CNN
-F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 5100 2250 50  0001 C CNN
-F 3 "" H 5100 2250 50  0000 C CNN
-	1    5100 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X03 P4
-U 1 1 597B3179
-P 5900 2250
-F 0 "P4" H 5900 2450 50  0000 C CNN
-F 1 "CONN_01X03" V 6000 2250 50  0000 C CNN
-F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 5900 2250 50  0001 C CNN
-F 3 "" H 5900 2250 50  0000 C CNN
-	1    5900 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X03 P6
-U 1 1 597B31C8
-P 6650 2250
-F 0 "P6" H 6650 2450 50  0000 C CNN
-F 1 "CONN_01X03" V 6750 2250 50  0000 C CNN
-F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 6650 2250 50  0001 C CNN
-F 3 "" H 6650 2250 50  0000 C CNN
-	1    6650 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X03 P1
-U 1 1 597B3295
-P 5100 1250
-F 0 "P1" H 5100 1450 50  0000 C CNN
-F 1 "CONN_01X03" V 5200 1250 50  0000 C CNN
-F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 5100 1250 50  0001 C CNN
-F 3 "" H 5100 1250 50  0000 C CNN
-	1    5100 1250
-	1    0    0    -1  
-$EndComp
-Text GLabel 9050 1000 2    60   Input ~ 0
-W
 Text GLabel 1500 850  0    60   Input ~ 0
 DC+
 Text GLabel 1500 2600 0    60   Input ~ 0
@@ -270,17 +204,17 @@ Text GLabel 850  5200 0    60   Input ~ 0
 T4_g
 Text GLabel 850  5400 0    60   Input ~ 0
 T6_g
-Text GLabel 4650 2850 3    60   Input ~ 0
+Text GLabel 4850 1200 0    60   Input ~ 0
 T1_g
-Text GLabel 5450 2850 3    60   Input ~ 0
+Text GLabel 6000 1200 0    60   Input ~ 0
 T3_g
-Text GLabel 6150 2850 3    60   Input ~ 0
+Text GLabel 7150 1200 0    60   Input ~ 0
 T5_g
-Text GLabel 4800 2850 3    60   Input ~ 0
+Text GLabel 4850 2050 0    60   Input ~ 0
 T2_g
-Text GLabel 5600 2850 3    60   Input ~ 0
+Text GLabel 6000 2050 0    60   Input ~ 0
 T4_g
-Text GLabel 6300 2850 3    60   Input ~ 0
+Text GLabel 7150 2050 0    60   Input ~ 0
 T6_g
 Text Notes 2750 750  0    60   ~ 0
 DC-Link\nCapacitors
@@ -302,7 +236,7 @@ Test\nPoints
 Text Notes 6050 4900 0    60   ~ 0
 Main \nmotor \nconnection
 Text Notes 500  1300 0    60   ~ 0
-Optional\nDC-Link\nSupply
+DC-Link\nSupply
 Text Notes 5200 700  0    60   ~ 0
 Gatedriver connections
 $Comp
@@ -442,81 +376,68 @@ F 3 "" H 2950 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ISO7320C U?
-U 1 1 5A2AF43F
-P 9000 2050
-F 0 "U?" H 9000 2475 50  0000 C CNN
-F 1 "ISO7320C" H 9000 2400 50  0000 C CNN
-F 2 "SMD_Packages:SOIC-8-N" H 9000 1700 50  0001 C CIN
-F 3 "" H 9000 2050 50  0001 C CNN
-	1    9000 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R?
 U 1 1 5A2B010E
-P 7450 1300
-F 0 "R?" V 7530 1300 50  0000 C CNN
-F 1 "2.2M" V 7450 1300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 7380 1300 50  0001 C CNN
-F 3 "" H 7450 1300 50  0001 C CNN
-F 4 "2W" V 7450 1300 60  0001 C CNN "Power"
-	1    7450 1300
+P 8200 1300
+F 0 "R?" V 8280 1300 50  0000 C CNN
+F 1 "10M" V 8200 1300 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 8130 1300 50  0001 C CNN
+F 3 "" H 8200 1300 50  0001 C CNN
+F 4 "2W" V 8200 1300 60  0001 C CNN "Power"
+	1    8200 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R?
 U 1 1 5A2B01BD
-P 7450 1950
-F 0 "R?" V 7530 1950 50  0000 C CNN
-F 1 "10k" V 7450 1950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 7380 1950 50  0001 C CNN
-F 3 "" H 7450 1950 50  0001 C CNN
-	1    7450 1950
+P 8200 1950
+F 0 "R?" V 8280 1950 50  0000 C CNN
+F 1 "100k" V 8200 1950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 8130 1950 50  0001 C CNN
+F 3 "" H 8200 1950 50  0001 C CNN
+	1    8200 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C?
 U 1 1 5A2B0611
-P 8350 1900
-F 0 "C?" H 8375 2000 50  0000 L CNN
-F 1 "100nF" H 8100 1800 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L16.5mm_W8.7mm_P15.00mm_MKT" H 8388 1750 50  0001 C CNN
-F 3 "" H 8350 1900 50  0001 C CNN
-	1    8350 1900
+P 8900 1950
+F 0 "C?" H 8925 2050 50  0000 L CNN
+F 1 "100nF" H 8950 1850 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L16.5mm_W8.7mm_P15.00mm_MKT" H 8938 1800 50  0001 C CNN
+F 3 "" H 8900 1950 50  0001 C CNN
+	1    8900 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C?
 U 1 1 5A2B0730
-P 7700 1950
-F 0 "C?" H 7725 2050 50  0000 L CNN
-F 1 "100pF" H 7725 1850 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L16.5mm_W8.7mm_P15.00mm_MKT" H 7738 1800 50  0001 C CNN
-F 3 "" H 7700 1950 50  0001 C CNN
-	1    7700 1950
+P 8550 1950
+F 0 "C?" H 8575 2050 50  0000 L CNN
+F 1 "100pF" H 8575 1850 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L16.5mm_W8.7mm_P15.00mm_MKT" H 8588 1800 50  0001 C CNN
+F 3 "" H 8550 1950 50  0001 C CNN
+	1    8550 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C?
 U 1 1 5A2B0910
-P 9700 1900
-F 0 "C?" H 9725 2000 50  0000 L CNN
-F 1 "100nF" H 9725 1800 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L16.5mm_W8.7mm_P15.00mm_MKT" H 9738 1750 50  0001 C CNN
-F 3 "" H 9700 1900 50  0001 C CNN
-	1    9700 1900
+P 10150 1550
+F 0 "C?" H 10175 1650 50  0000 L CNN
+F 1 "100nF" H 10175 1450 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L16.5mm_W8.7mm_P15.00mm_MKT" H 10188 1400 50  0001 C CNN
+F 3 "" H 10150 1550 50  0001 C CNN
+	1    10150 1550
 	1    0    0    -1  
 $EndComp
-Text Notes 8300 2750 0    60   ~ 0
-ACPL-C87B \nIso Opamp
-Text GLabel 10700 5950 2    60   Output ~ 0
+Text GLabel 10800 5950 2    60   Output ~ 0
 Vcc
-Text GLabel 10900 7050 2    60   Output ~ 0
+Text GLabel 10800 7050 2    60   Output ~ 0
 Gnd
-Text GLabel 9000 1400 1    60   Input ~ 0
+Text GLabel 10300 1300 2    60   Input ~ 0
 Vcc
-Text GLabel 9000 2650 3    60   Input ~ 0
+Text GLabel 10300 2450 2    60   Input ~ 0
 Gnd
 $Comp
 L ACS758xCB-PFF U?
@@ -549,6 +470,168 @@ F 1 "ACS758xCB-PFF" H 4650 5200 60  0000 C CNN
 F 2 "" H 4600 5550 60  0001 C CNN
 F 3 "" H 4600 5550 60  0001 C CNN
 	1    4600 5550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 3300 0    60   Input ~ 0
+Vcc
+Text GLabel 3700 3450 0    60   Input ~ 0
+Gnd
+$Comp
+L ACPL-C87B U?
+U 1 1 5A2C2F63
+P 9700 1900
+F 0 "U?" H 9500 2250 50  0000 R CNN
+F 1 "ACPL-C87B" H 9900 1450 50  0000 R CNN
+F 2 "Housings_SOIC:SOIC-8_5.850x6.807mm_Pitch1.27mm" H 9850 1550 50  0001 L CIN
+F 3 "" H 9745 1905 50  0001 L CNN
+	1    9700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5A2C69D2
+P 10950 1900
+F 0 "P?" H 10950 2050 50  0000 C CNN
+F 1 "CONN_01X02" V 11050 1900 50  0000 C CNN
+F 2 "PhoenixContact:MSTBA_25_2p_G_508-1757242" H 10950 1900 50  0001 C CNN
+F 3 "" H 10950 1900 50  0000 C CNN
+	1    10950 1900
+	1    0    0    1   
+$EndComp
+Text Notes 8800 700  0    60   ~ 0
+Voltage measurement
+$Comp
+L R R?
+U 1 1 5A2CA868
+P 4900 1400
+F 0 "R?" V 4980 1400 50  0000 C CNN
+F 1 "100k" V 4900 1400 50  0000 C CNN
+F 2 "" V 4830 1400 50  0001 C CNN
+F 3 "" H 4900 1400 50  0001 C CNN
+	1    4900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A2CB243
+P 6050 1400
+F 0 "R?" V 6130 1400 50  0000 C CNN
+F 1 "100k" V 6050 1400 50  0000 C CNN
+F 2 "" V 5980 1400 50  0001 C CNN
+F 3 "" H 6050 1400 50  0001 C CNN
+	1    6050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A2CB3B5
+P 4900 2250
+F 0 "R?" V 4980 2250 50  0000 C CNN
+F 1 "100k" V 4900 2250 50  0000 C CNN
+F 2 "" V 4830 2250 50  0001 C CNN
+F 3 "" H 4900 2250 50  0001 C CNN
+	1    4900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A2CB445
+P 6050 2250
+F 0 "R?" V 6130 2250 50  0000 C CNN
+F 1 "100k" V 6050 2250 50  0000 C CNN
+F 2 "" V 5980 2250 50  0001 C CNN
+F 3 "" H 6050 2250 50  0001 C CNN
+	1    6050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A2CB4DC
+P 7200 1400
+F 0 "R?" V 7280 1400 50  0000 C CNN
+F 1 "100k" V 7200 1400 50  0000 C CNN
+F 2 "" V 7130 1400 50  0001 C CNN
+F 3 "" H 7200 1400 50  0001 C CNN
+	1    7200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A2CB57A
+P 7200 2250
+F 0 "R?" V 7280 2250 50  0000 C CNN
+F 1 "100k" V 7200 2250 50  0000 C CNN
+F 2 "" V 7130 2250 50  0001 C CNN
+F 3 "" H 7200 2250 50  0001 C CNN
+	1    7200 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 1300 0    60   Input ~ 0
+Vdd1
+$Comp
+L CONN_01X03 P?
+U 1 1 5A2DE04B
+P 5250 1150
+F 0 "P?" H 5250 1350 50  0000 C CNN
+F 1 "CONN_01X03" V 5350 1150 50  0000 C CNN
+F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 5250 1150 50  0001 C CNN
+F 3 "" H 5250 1150 50  0000 C CNN
+	1    5250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 5A2DFBBA
+P 5250 2050
+F 0 "P?" H 5250 2250 50  0000 C CNN
+F 1 "CONN_01X03" V 5350 2050 50  0000 C CNN
+F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 5250 2050 50  0001 C CNN
+F 3 "" H 5250 2050 50  0000 C CNN
+	1    5250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 5A2E0986
+P 6400 1150
+F 0 "P?" H 6400 1350 50  0000 C CNN
+F 1 "CONN_01X03" V 6500 1150 50  0000 C CNN
+F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 6400 1150 50  0001 C CNN
+F 3 "" H 6400 1150 50  0000 C CNN
+	1    6400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 5A2E1987
+P 6400 2050
+F 0 "P?" H 6400 2250 50  0000 C CNN
+F 1 "CONN_01X03" V 6500 2050 50  0000 C CNN
+F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 6400 2050 50  0001 C CNN
+F 3 "" H 6400 2050 50  0000 C CNN
+	1    6400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 5A2E2218
+P 7600 1150
+F 0 "P?" H 7600 1350 50  0000 C CNN
+F 1 "CONN_01X03" V 7700 1150 50  0000 C CNN
+F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 7600 1150 50  0001 C CNN
+F 3 "" H 7600 1150 50  0000 C CNN
+	1    7600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 5A2E4C3A
+P 7600 2050
+F 0 "P?" H 7600 2250 50  0000 C CNN
+F 1 "CONN_01X03" V 7700 2050 50  0000 C CNN
+F 2 "PhoenixContact:MSTBA_25_3p_G_508-1757488" H 7600 2050 50  0001 C CNN
+F 3 "" H 7600 2050 50  0000 C CNN
+	1    7600 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -586,25 +669,9 @@ Wire Wire Line
 	950  6400 850  6400
 Connection ~ 950  6400
 Wire Wire Line
-	1500 850  7450 850 
+	1500 850  8200 850 
 Wire Wire Line
-	4900 850  4900 1150
-Wire Wire Line
-	5700 850  5700 1150
-Connection ~ 4900 850 
-Wire Wire Line
-	6450 850  6450 1150
-Connection ~ 5700 850 
-Wire Wire Line
-	4900 2600 4900 2350
-Wire Wire Line
-	7450 2600 1500 2600
-Wire Wire Line
-	5700 2600 5700 2350
-Connection ~ 4900 2600
-Wire Wire Line
-	6450 2600 6450 2350
-Connection ~ 5700 2600
+	8200 2600 1500 2600
 Wire Wire Line
 	850  4350 1100 4350
 Wire Wire Line
@@ -624,23 +691,11 @@ Wire Wire Line
 	4150 1350 4150 850 
 Connection ~ 4150 850 
 Wire Wire Line
-	4150 2150 4150 2600
+	4150 2600 4150 2150
 Connection ~ 4150 2600
 Wire Wire Line
 	3750 2150 3750 2600
 Connection ~ 3750 2600
-Wire Wire Line
-	4650 1250 4900 1250
-Wire Wire Line
-	4900 2250 4800 2250
-Wire Wire Line
-	5450 1250 5700 1250
-Wire Wire Line
-	5600 2250 5700 2250
-Wire Wire Line
-	6150 1250 6450 1250
-Wire Wire Line
-	6300 2250 6450 2250
 Wire Notes Line
 	4400 550  4400 2750
 Wire Notes Line
@@ -657,7 +712,6 @@ Wire Notes Line
 	2500 2750 2500 550 
 Wire Notes Line
 	2500 550  3400 550 
-Connection ~ 6450 2600
 Wire Wire Line
 	900  1600 1650 1600
 Wire Wire Line
@@ -680,22 +734,16 @@ Wire Notes Line
 	1750 2750 1750 550 
 Wire Notes Line
 	1750 550  2400 550 
-Wire Notes Line
-	4500 2750 6950 2750
-Wire Notes Line
-	6950 2750 6950 550 
-Wire Notes Line
-	6950 550  4500 550 
 Wire Wire Line
 	9850 6050 9850 5950
 Wire Wire Line
-	9450 5950 10700 5950
+	9450 5950 10800 5950
 Wire Wire Line
 	10200 5950 10200 6050
 Wire Wire Line
 	10200 7050 10200 6900
 Wire Wire Line
-	9450 7050 10900 7050
+	9450 7050 10800 7050
 Wire Wire Line
 	9850 7050 9850 6900
 Wire Wire Line
@@ -716,7 +764,7 @@ Connection ~ 10550 5950
 Wire Wire Line
 	10550 6350 10550 6600
 Wire Wire Line
-	10550 6900 10550 7050
+	10550 7050 10550 6900
 Connection ~ 10550 7050
 Wire Wire Line
 	2050 850  2050 950 
@@ -752,29 +800,8 @@ Wire Wire Line
 Connection ~ 2950 2450
 Connection ~ 2950 2600
 Wire Wire Line
-	7450 850  7450 1150
-Wire Wire Line
-	7450 1450 7450 1800
-Wire Wire Line
-	7450 2100 7450 2600
-Connection ~ 7450 2250
-Connection ~ 7450 1700
-Wire Wire Line
-	8000 2150 8600 2150
-Wire Wire Line
-	7450 2250 8600 2250
-Wire Wire Line
-	7700 2100 7700 2250
-Connection ~ 7700 2250
-Wire Wire Line
-	7700 1800 7700 1700
-Wire Wire Line
-	7450 1700 8000 1700
-Wire Wire Line
-	8000 1700 8000 2150
-Connection ~ 7700 1700
-Wire Wire Line
-	8350 1550 9700 1550
+	8200 1450 8200 1800
+Connection ~ 8200 1700
 Wire Wire Line
 	2950 6550 3250 6550
 Wire Wire Line
@@ -788,60 +815,6 @@ Connection ~ 2950 4750
 Wire Wire Line
 	2950 5050 2950 5150
 Connection ~ 2950 5100
-Wire Wire Line
-	8350 2050 8500 2050
-Wire Wire Line
-	8500 2050 8500 1950
-Wire Wire Line
-	8500 1950 8600 1950
-Wire Wire Line
-	8600 1850 8500 1850
-Wire Wire Line
-	8500 1850 8500 1750
-Wire Wire Line
-	8500 1750 8350 1750
-Wire Wire Line
-	9400 1850 9500 1850
-Wire Wire Line
-	9500 1850 9500 1750
-Wire Wire Line
-	9500 1750 9700 1750
-Wire Wire Line
-	9400 1950 9500 1950
-Wire Wire Line
-	9500 1950 9500 2050
-Wire Wire Line
-	9500 2050 9700 2050
-Wire Wire Line
-	9000 2450 9000 2650
-Wire Wire Line
-	8350 2450 9700 2450
-Wire Wire Line
-	8350 2450 8350 2050
-Wire Wire Line
-	9700 2450 9700 2050
-Connection ~ 9000 2450
-Wire Wire Line
-	9000 1550 9000 1400
-Wire Wire Line
-	9700 1750 9700 1550
-Connection ~ 9000 1550
-Wire Wire Line
-	8350 1750 8350 1550
-Wire Wire Line
-	4800 2250 4800 2850
-Wire Wire Line
-	5600 2250 5600 2850
-Wire Wire Line
-	6300 2250 6300 2850
-Wire Wire Line
-	6150 2850 6150 1250
-Wire Wire Line
-	5450 2850 5450 1250
-Wire Wire Line
-	4650 2850 4650 1250
-Wire Notes Line
-	4500 550  4500 2750
 Wire Wire Line
 	2950 4400 3550 4400
 Wire Wire Line
@@ -859,17 +832,9 @@ Wire Wire Line
 Wire Wire Line
 	5100 4750 5650 4750
 Wire Wire Line
-	5650 4650 5400 4650
+	5250 4650 5650 4650
 Wire Wire Line
-	5400 4650 5400 3800
-Wire Wire Line
-	5400 3800 5100 3800
-Wire Wire Line
-	5150 5700 5400 5700
-Wire Wire Line
-	5400 5700 5400 4850
-Wire Wire Line
-	5400 4850 5650 4850
+	5250 4850 5650 4850
 Wire Wire Line
 	3700 3300 4150 3300
 Wire Wire Line
@@ -888,10 +853,6 @@ Wire Wire Line
 Wire Wire Line
 	4050 5300 4150 5300
 Connection ~ 4050 4350
-Text GLabel 3700 3300 0    60   Input ~ 0
-Vcc
-Text GLabel 3700 3450 0    60   Input ~ 0
-Gnd
 Connection ~ 3950 3300
 Wire Wire Line
 	3700 3450 4050 3450
@@ -910,26 +871,248 @@ Wire Wire Line
 	5500 5200 5500 4350
 Wire Wire Line
 	5500 4350 5650 4350
-Connection ~ 6450 850 
-Connection ~ 6450 1900
 Wire Wire Line
-	6450 1350 6450 2150
-Connection ~ 5700 1750
+	8200 2100 8200 2600
 Wire Wire Line
-	5700 1350 5700 2150
+	9600 2450 9600 2300
+Wire Wire Line
+	8200 2450 9600 2450
+Wire Wire Line
+	8550 2450 8550 2100
+Wire Wire Line
+	8900 2100 8900 2450
+Connection ~ 8900 2450
+Wire Wire Line
+	9300 1900 9250 1900
+Wire Wire Line
+	9250 1900 9250 2450
+Connection ~ 9250 2450
+Wire Wire Line
+	8200 1700 9300 1700
+Wire Wire Line
+	8550 1800 8550 1700
+Connection ~ 8550 1700
+Wire Wire Line
+	9600 1300 9600 1500
+Wire Wire Line
+	8750 1300 9600 1300
+Wire Wire Line
+	8900 1300 8900 1800
+Connection ~ 8900 1300
+Wire Notes Line
+	7950 550  7950 2750
+Wire Notes Line
+	7950 2750 10650 2750
+Wire Notes Line
+	10650 2750 10650 550 
+Wire Notes Line
+	10650 550  7950 550 
+Wire Wire Line
+	8200 850  8200 1150
+Wire Wire Line
+	6050 2050 6050 2100
+Connection ~ 6050 850 
+Connection ~ 8200 2450
+Connection ~ 8550 2450
+Wire Wire Line
+	9800 1500 9800 1300
+Wire Wire Line
+	9800 1300 10300 1300
+Wire Wire Line
+	10150 1400 10150 1300
+Connection ~ 10150 1300
+Wire Wire Line
+	9800 2300 9800 2450
+Wire Wire Line
+	9800 2450 10300 2450
+Wire Wire Line
+	10150 1700 10150 2450
+Connection ~ 10150 2450
+Wire Wire Line
+	5100 3800 5250 3800
+Wire Wire Line
+	5250 3800 5250 4650
+Wire Wire Line
+	5250 4850 5250 5700
+Wire Wire Line
+	5250 5700 5100 5700
+Wire Wire Line
+	4850 1200 4900 1200
+Wire Wire Line
+	4900 1150 4900 1250
+Wire Wire Line
+	5050 1150 4900 1150
+Connection ~ 4900 1200
+Connection ~ 4900 850 
+Wire Wire Line
+	5050 1600 5050 1250
+Wire Wire Line
+	4850 2050 5050 2050
+Wire Wire Line
+	4900 2050 4900 2100
+Connection ~ 4900 2050
+Wire Wire Line
+	4900 2450 5050 2450
+Wire Wire Line
+	4900 2400 4900 2600
+Wire Wire Line
+	5050 2450 5050 2150
+Connection ~ 4900 2450
+Wire Wire Line
+	6000 1200 6050 1200
+Wire Wire Line
+	6050 1150 6050 1250
+Wire Wire Line
+	6200 1150 6050 1150
+Connection ~ 6050 1200
+Wire Wire Line
+	6200 1600 6200 1250
+Wire Wire Line
+	6050 1950 6200 1950
+Wire Wire Line
+	6000 2050 6200 2050
+Connection ~ 6050 2050
+Wire Wire Line
+	6050 2450 6200 2450
+Wire Wire Line
+	6050 2400 6050 2600
+Wire Wire Line
+	6200 2450 6200 2150
+Connection ~ 6050 2450
+Connection ~ 7200 850 
+Wire Wire Line
+	7200 1150 7400 1150
+Wire Wire Line
+	7200 1150 7200 1250
+Wire Wire Line
+	7150 1200 7200 1200
+Connection ~ 7200 1200
+Wire Wire Line
+	7400 1600 7400 1250
+Wire Wire Line
+	7150 2050 7400 2050
+Wire Wire Line
+	7200 2050 7200 2100
+Wire Wire Line
+	7200 2400 7200 2600
+Wire Wire Line
+	7200 2450 7400 2450
+Connection ~ 4900 2600
+Connection ~ 6050 2600
+Connection ~ 7200 2600
+Connection ~ 7200 2450
+Connection ~ 7200 2050
+Wire Wire Line
+	7400 2450 7400 2150
+Wire Wire Line
+	7400 1050 7200 1050
+Wire Wire Line
+	7200 1050 7200 850 
+Wire Wire Line
+	6200 1050 6050 1050
+Wire Wire Line
+	6050 1050 6050 850 
+Wire Wire Line
+	5050 1050 4900 1050
+Wire Wire Line
+	4900 1050 4900 850 
+Wire Wire Line
+	4900 1950 5050 1950
+Wire Wire Line
+	4900 1550 4900 1950
+Wire Wire Line
+	5050 1600 4900 1600
 Connection ~ 4900 1600
 Wire Wire Line
-	4900 1350 4900 2150
-Text GLabel 6750 1600 2    60   Input ~ 0
+	6050 1550 6050 1950
+Wire Wire Line
+	6200 1600 6050 1600
+Connection ~ 6050 1600
+Wire Wire Line
+	7200 1550 7200 1950
+Wire Wire Line
+	7200 1950 7400 1950
+Wire Wire Line
+	7400 1600 7200 1600
+Connection ~ 7200 1600
+Text GLabel 4700 1750 0    60   Input ~ 0
 U
-Text GLabel 6750 1750 2    60   Input ~ 0
+Wire Wire Line
+	4700 1750 4900 1750
+Connection ~ 4900 1750
+Text GLabel 5850 1750 0    60   Input ~ 0
 V
-Text GLabel 6750 1900 2    60   Input ~ 0
+Wire Wire Line
+	5850 1750 6050 1750
+Connection ~ 6050 1750
+Text GLabel 7000 1750 0    60   Input ~ 0
 W
 Wire Wire Line
-	4900 1600 6750 1600
+	7000 1750 7200 1750
+Connection ~ 7200 1750
+Text GLabel 3150 4300 0    60   Input ~ 0
+U
+Text GLabel 3150 4650 0    60   Input ~ 0
+V
+Text GLabel 3150 5000 0    60   Input ~ 0
+W
 Wire Wire Line
-	5700 1750 6750 1750
+	3150 5000 3250 5000
 Wire Wire Line
-	6450 1900 6750 1900
+	3250 5000 3250 5100
+Connection ~ 3250 5100
+Wire Wire Line
+	3150 4650 3250 4650
+Wire Wire Line
+	3250 4650 3250 4750
+Connection ~ 3250 4750
+Wire Wire Line
+	3150 4300 3250 4300
+Wire Wire Line
+	3250 4300 3250 4400
+Connection ~ 3250 4400
+Wire Wire Line
+	10750 1850 10100 1850
+Wire Wire Line
+	10100 1850 10100 1800
+Wire Wire Line
+	10750 1950 10100 1950
+Wire Wire Line
+	10100 1950 10100 2000
+Wire Notes Line
+	4550 550  7800 550 
+Wire Notes Line
+	7800 550  7800 2750
+Wire Notes Line
+	7800 2750 4550 2750
+Wire Notes Line
+	4550 2750 4550 550 
+$Comp
+L ISE0505A(-H) U?
+U 1 1 5A2EC2DA
+P 9600 3450
+F 0 "U?" H 9250 3950 60  0000 C CNN
+F 1 "ISE0505A(-H)" H 9650 2950 60  0000 C CNN
+F 2 "" H 9550 3450 60  0001 C CNN
+F 3 "" H 9550 3450 60  0001 C CNN
+	1    9600 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 8550 3200 0    60   Input ~ 0
+Vcc
+Text GLabel 8550 3600 0    60   Input ~ 0
+Gnd
+Wire Wire Line
+	8550 3200 9000 3200
+Wire Wire Line
+	8550 3600 9000 3600
+Text GLabel 10550 3200 2    60   Input ~ 0
+Vdd1
+Wire Wire Line
+	10250 3200 10550 3200
+Text GLabel 10550 3650 2    60   Input ~ 0
+DC-
+Wire Wire Line
+	10250 3650 10550 3650
+NoConn ~ 9000 3750
 $EndSCHEMATC
