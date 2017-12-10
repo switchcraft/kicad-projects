@@ -1096,23 +1096,23 @@ F 1 "ISE0505A(-H)" H 9650 2950 60  0000 C CNN
 F 2 "" H 9550 3450 60  0001 C CNN
 F 3 "" H 9550 3450 60  0001 C CNN
 	1    9600 3450
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
-Text GLabel 8550 3200 0    60   Input ~ 0
+Text GLabel 10400 3200 2    60   Input ~ 0
 Vcc
-Text GLabel 8550 3600 0    60   Input ~ 0
+Text GLabel 10400 3600 2    60   Input ~ 0
 Gnd
-Wire Wire Line
-	8550 3200 9000 3200
-Wire Wire Line
-	8550 3600 9000 3600
-Text GLabel 10550 3200 2    60   Input ~ 0
+Text GLabel 8750 3200 0    60   Input ~ 0
 Vdd1
-Wire Wire Line
-	10250 3200 10550 3200
-Text GLabel 10550 3650 2    60   Input ~ 0
+Text GLabel 8700 3650 0    60   Input ~ 0
 DC-
+NoConn ~ 10200 3750
 Wire Wire Line
-	10250 3650 10550 3650
-NoConn ~ 9000 3750
+	8750 3200 8950 3200
+Wire Wire Line
+	10400 3200 10200 3200
+Wire Wire Line
+	10400 3600 10200 3600
+Wire Wire Line
+	8700 3650 8950 3650
 $EndSCHEMATC
