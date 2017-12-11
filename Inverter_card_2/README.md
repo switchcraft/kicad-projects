@@ -1,7 +1,7 @@
-# Inverter_card_2
+# Inverter Card 2
 
-Card for Semikron transistor module card. 
+Inverter circuit board for Semikron IGBT/SiC module. 
 
-Features connections to gatedrivers and motor output. Voltage and current measurement.
+Features connections to gatedrivers and motor output. Voltage and temperature measurement through isolation amplifiers. Three phase output current measurement through hall-effect sensors.
 
-This card is designed to sit on top of the DC-link capacitors.
+This card is designed to sit on top of the DC-link capacitors. The board is designed for a no-load DC-link voltage of 565V.
