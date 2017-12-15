@@ -49,7 +49,6 @@ LIBS:ftdi
 LIBS:gennum
 LIBS:graphic
 LIBS:hc11
-LIBS:intersil
 LIBS:ir
 LIBS:Lattice
 LIBS:leds
@@ -93,7 +92,6 @@ LIBS:Xicor
 LIBS:zetex
 LIBS:Zilog
 LIBS:custom_transformers
-LIBS:Flyback2000-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -381,7 +379,7 @@ L R R18
 U 1 1 59605987
 P 8250 3500
 F 0 "R18" V 8330 3500 50  0000 C CNN
-F 1 "R" V 8250 3500 50  0000 C CNN
+F 1 "1k" V 8250 3500 50  0000 C CNN
 F 2 "" V 8180 3500 50  0001 C CNN
 F 3 "" H 8250 3500 50  0001 C CNN
 	1    8250 3500
