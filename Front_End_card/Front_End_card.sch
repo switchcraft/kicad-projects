@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Front_End_card-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -312,7 +313,7 @@ F 3 "" H 8750 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ACS758xCB-PFF U1
+L ACS758xCB-PFF-RESCUE-Front_End_card U1
 U 1 1 598994E3
 P 4650 1250
 F 0 "U1" H 4450 1850 60  0000 C CNN
@@ -323,7 +324,7 @@ F 3 "" H 4650 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ACS758xCB-PFF U2
+L ACS758xCB-PFF-RESCUE-Front_End_card U2
 U 1 1 59899568
 P 8300 1250
 F 0 "U2" H 8100 1850 60  0000 C CNN
@@ -334,7 +335,7 @@ F 3 "" H 8300 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ACS758xCB-PFF U3
+L ACS758xCB-PFF-RESCUE-Front_End_card U3
 U 1 1 598995BC
 P 8300 4500
 F 0 "U3" H 8100 5100 60  0000 C CNN
