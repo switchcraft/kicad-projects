@@ -44,7 +44,7 @@ LibName32=valves
 version=1
 [schematic_editor]
 version=1
-PageLayoutDescrFile=/home/eirik/media/dokumenter/Switchcraft/development/git/kicad-lib/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
+PageLayoutDescrFile=$SWITCHCRAFTLIB/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -54,7 +54,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [pcbnew]
 version=1
-PageLayoutDescrFile=/home/eirik/media/dokumenter/Switchcraft/development/git/kicad-lib/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
+PageLayoutDescrFile=$SWITCHCRAFTLIB/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
 LastNetListRead=pre-charge_controller.net
 PadDrill=0.762
 PadDrillOvalY=0.762
