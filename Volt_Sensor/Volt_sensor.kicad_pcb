@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0)
 
   (general
-    (links 41)
-    (no_connects 0)
-    (area 87.924999 64.924999 238.075001 136.075001)
     (thickness 1.6)
     (drawings 45)
     (tracks 101)
@@ -77,6 +74,9 @@
     (pcbplotparams
       (layerselection 0x011fc_80000001)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -85,8 +85,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -98,7 +97,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber/))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -957,10 +956,10 @@
   (module Switchcraft:Switchcraft_medium_logo (layer F.Cu) (tedit 597B4105) (tstamp 59917BC0)
     (at 189.611 69.469)
     (fp_text reference G*** (at 0 3.5) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value LOGO (at 0 -3.5) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -10.532908 -3.090947) (xy -10.417416 -3.08777) (xy -10.315775 -3.081679) (xy -10.222237 -3.072023)
       (xy -10.131054 -3.058151) (xy -10.036475 -3.039412) (xy -9.932754 -3.015153) (xy -9.885131 -3.003175)
@@ -1704,7 +1703,7 @@
       (net 15 "Net-(P3-Pad1)"))
     (pad 5 thru_hole circle (at 7.62 10.16 90) (size 2.5 2.5) (drill 1.2) (layers *.Cu *.Mask)
       (net 3 VEE))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/LEM.3dshapes/LV25-P.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/LEM.3dshapes/LV25-P.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
