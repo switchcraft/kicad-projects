@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0)
 
   (general
-    (links 73)
-    (no_connects 0)
-    (area 36.322 81.372723 156.186 160.149)
     (thickness 1.6)
     (drawings 40)
     (tracks 173)
@@ -78,6 +75,9 @@
     (pcbplotparams
       (layerselection 0x011fc_80000001)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -86,8 +86,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -99,7 +98,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber/))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -1711,7 +1710,7 @@
     (pad 1 thru_hole rect (at 6.54 -6.35) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
     (pad 2 thru_hole rect (at 4 -6.35) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
     (pad 3 thru_hole rect (at 1.46 -6.35) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/LEM.3dshapes/LTS-25-NP.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/LEM.3dshapes/LTS-25-NP.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1755,7 +1754,7 @@
     (pad 1 thru_hole rect (at 6.54 -6.35) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
     (pad 2 thru_hole rect (at 4 -6.35) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
     (pad 3 thru_hole rect (at 1.46 -6.35) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/LEM.3dshapes/LTS-25-NP.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/LEM.3dshapes/LTS-25-NP.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1799,7 +1798,7 @@
     (pad 1 thru_hole rect (at 6.54 -6.35) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
     (pad 2 thru_hole rect (at 4 -6.35) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
     (pad 3 thru_hole rect (at 1.46 -6.35) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/LEM.3dshapes/LTS-25-NP.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/LEM.3dshapes/LTS-25-NP.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1809,10 +1808,10 @@
   (module Switchcraft:Switchcraft_medium_logo (layer F.Cu) (tedit 597B4105) (tstamp 599B2638)
     (at 54.229 124.206 90)
     (fp_text reference G*** (at 0 3.5 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value LOGO (at 0 -3.5 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -10.532908 -3.090947) (xy -10.417416 -3.08777) (xy -10.315775 -3.081679) (xy -10.222237 -3.072023)
       (xy -10.131054 -3.058151) (xy -10.036475 -3.039412) (xy -9.932754 -3.015153) (xy -9.885131 -3.003175)
@@ -2858,7 +2857,7 @@
       (net 17 "Net-(P1-Pad3)"))
     (pad 4 thru_hole oval (at 15 0) (size 2.1 3.6) (drill 1.4) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/PhoenixContact.3dshapes/MSTBA_25_4p_G_508-1757268.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/PhoenixContact.3dshapes/MSTBA_25_4p_G_508-1757268.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -2903,7 +2902,7 @@
       (net 4 +5V))
     (pad 2 thru_hole oval (at 5 0) (size 2.1 3.6) (drill 1.4) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/PhoenixContact.3dshapes/MSTBA_25_2p_G_508-1757242.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/PhoenixContact.3dshapes/MSTBA_25_2p_G_508-1757242.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -2954,7 +2953,7 @@
       (net 2 GND))
     (pad 3 thru_hole oval (at 10 0) (size 2.1 3.6) (drill 1.4) (layers *.Cu *.Mask)
       (net 3 -15V))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/PhoenixContact.3dshapes/MSTBA_25_3p_G_508-1757488.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/PhoenixContact.3dshapes/MSTBA_25_3p_G_508-1757488.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
