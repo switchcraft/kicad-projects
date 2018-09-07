@@ -1,0 +1,66 @@
+(export (version D)
+  (design
+    (source /Users/Yngve/git/Switchcraft/kicad-projects/TestKiCad5/TestKiCad5.sch)
+    (date "2018 September 02, Sunday 14:51:02")
+    (tool "Eeschema (5.0.0-3-g5ebb6b6)")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source TestKiCad5.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref C1)
+      (value C)
+      (footprint Capacitors_SMD:C_1206_HandSoldering)
+      (datasheet ~)
+      (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5B92BCF9))
+    (comp (ref R1)
+      (value R)
+      (footprint Resistors_SMD:R_1206_HandSoldering)
+      (datasheet ~)
+      (libsource (lib Device) (part R) (description Resistor))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5B92BD8E)))
+  (libparts
+    (libpart (lib Device) (part C)
+      (description "Unpolarized capacitor")
+      (docs ~)
+      (footprints
+        (fp C_*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib Device) (part R)
+      (description Resistor)
+      (docs ~)
+      (footprints
+        (fp R_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
+  (libraries
+    (library (logical Device)
+      (uri "/Library/Application Support/kicad/library/Device.lib")))
+  (nets
+    (net (code 1) (name "Net-(C1-Pad1)")
+      (node (ref C1) (pin 1)))
+    (net (code 2) (name "Net-(C1-Pad2)")
+      (node (ref C1) (pin 2)))
+    (net (code 3) (name "Net-(R1-Pad1)")
+      (node (ref R1) (pin 1)))
+    (net (code 4) (name "Net-(R1-Pad2)")
+      (node (ref R1) (pin 2)))))
