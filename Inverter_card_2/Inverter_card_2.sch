@@ -22,6 +22,7 @@ F 0 "P7" H 8750 4850 50  0000 C CNN
 F 1 "CONN_01X03" V 8850 4650 50  0000 C CNN
 F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G-7,62_1x03_P7.62mm_Horizontal" H 8750 4650 50  0001 C CNN
 F 3 "" H 8750 4650 50  0000 C CNN
+F 4 "1766246" H 8750 4650 50  0001 C CNN "Farnell_ID"
 	1    8750 4650
 	1    0    0    -1  
 $EndComp
@@ -37,6 +38,7 @@ F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 2930 1400 50  0
 F 3 "" H 3000 1400 50  0001 C CNN
 F 4 "2 W" V 3000 1400 60  0001 C CNN "Power"
 F 5 "MCPWR12FTEA2703" V 3000 1400 60  0001 C CNN "Product number"
+F 6 "1887854" V 3000 1400 50  0001 C CNN "Farnell_ID"
 	1    3000 1400
 	1    0    0    -1  
 $EndComp
@@ -59,8 +61,9 @@ U 1 1 597B1AE5
 P 3900 2050
 F 0 "R7" V 3980 2050 50  0000 C CNN
 F 1 "5" V 3900 2050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 2050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" V 3830 2050 50  0001 C CNN
 F 3 "" H 3900 2050 50  0001 C CNN
+F 4 "2448942" V 3900 2050 50  0001 C CNN "Farnell_ID"
 	1    3900 2050
 	1    0    0    -1  
 $EndComp
@@ -70,8 +73,9 @@ U 1 1 597B1B4A
 P 3900 1400
 F 0 "C7" H 3925 1500 50  0000 L CNN
 F 1 "22pF" H 3925 1300 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L19.0mm_W5.0mm_P15.00mm_MKS4" H 3938 1250 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 3938 1250 50  0001 C CNN
 F 3 "" H 3900 1400 50  0001 C CNN
+F 4 "2860152" H 3900 1400 50  0001 C CNN "Farnell_ID"
 	1    3900 1400
 	1    0    0    -1  
 $EndComp
@@ -80,9 +84,10 @@ L Device:C C5
 U 1 1 597B1B98
 P 3500 1400
 F 0 "C5" H 3525 1500 50  0000 L CNN
-F 1 "C" H 3525 1300 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L19.0mm_W5.0mm_P15.00mm_MKS4" H 3538 1250 50  0001 C CNN
+F 1 "5uF" H 3525 1300 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4" H 3538 1250 50  0001 C CNN
 F 3 "" H 3500 1400 50  0001 C CNN
+F 4 "1781918" H 3500 1400 50  0001 C CNN "Farnell_ID"
 	1    3500 1400
 	1    0    0    -1  
 $EndComp
@@ -91,9 +96,10 @@ L Device:C C6
 U 1 1 597B1BEC
 P 3500 2050
 F 0 "C6" H 3525 2150 50  0000 L CNN
-F 1 "C" H 3525 1950 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L19.0mm_W5.0mm_P15.00mm_MKS4" H 3538 1900 50  0001 C CNN
+F 1 "5uF" H 3525 1950 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4" H 3538 1900 50  0001 C CNN
 F 3 "" H 3500 2050 50  0001 C CNN
+F 4 "1781918" H 3500 2050 50  0001 C CNN "Farnell_ID"
 	1    3500 2050
 	1    0    0    -1  
 $EndComp
@@ -156,8 +162,9 @@ U 1 1 59D66DDF
 P 7600 6200
 F 0 "CP21" H 7625 6300 50  0000 L CNN
 F 1 "10uF" H 7625 6100 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 7638 6050 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 7638 6050 50  0001 C CNN
 F 3 "" H 7600 6200 50  0001 C CNN
+F 4 "2354812" H 7600 6200 50  0001 C CNN "Farnell_ID"
 	1    7600 6200
 	1    0    0    -1  
 $EndComp
@@ -202,6 +209,7 @@ F 0 "C2" H 2475 2150 50  0000 L CNN
 F 1 "50uF" H 2475 1950 50  0000 L CNN
 F 2 "Panasonic:Panasonic_EZPE80506MTA" H 2488 1900 50  0001 C CNN
 F 3 "" H 2450 2050 50  0001 C CNN
+F 4 "2192346" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    2450 2050
 	1    0    0    -1  
 $EndComp
@@ -213,6 +221,7 @@ F 0 "C4" H 2725 2150 50  0000 L CNN
 F 1 "50uF" H 2725 1950 50  0000 L CNN
 F 2 "Panasonic:Panasonic_EZPE80506MTA" H 2738 1900 50  0001 C CNN
 F 3 "" H 2700 2050 50  0001 C CNN
+F 4 "2192346" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    2700 2050
 	1    0    0    -1  
 $EndComp
@@ -224,6 +233,7 @@ F 0 "C1" H 2475 1500 50  0000 L CNN
 F 1 "50uF" H 2475 1300 50  0000 L CNN
 F 2 "Panasonic:Panasonic_EZPE80506MTA" H 2488 1250 50  0001 C CNN
 F 3 "" H 2450 1400 50  0001 C CNN
+F 4 "2192346" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    2450 1400
 	1    0    0    -1  
 $EndComp
@@ -235,6 +245,7 @@ F 0 "C3" H 2725 1500 50  0000 L CNN
 F 1 "50uF" H 2725 1300 50  0000 L CNN
 F 2 "Panasonic:Panasonic_EZPE80506MTA" H 2738 1250 50  0001 C CNN
 F 3 "" H 2700 1400 50  0001 C CNN
+F 4 "2192346" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    2700 1400
 	1    0    0    -1  
 $EndComp
@@ -321,8 +332,9 @@ U 1 1 5A2C2F63
 P 9450 2000
 F 0 "U50" H 9250 2350 50  0000 R CNN
 F 1 "ACPL-C87B" H 9650 2450 50  0000 R CNN
-F 2 "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance7mm" H 9600 1650 50  0001 L CIN
+F 2 "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm" H 9600 1650 50  0001 L CIN
 F 3 "" H 9495 2005 50  0001 L CNN
+F 4 "2213635" H 9450 2000 50  0001 C CNN "Farnell_ID"
 	1    9450 2000
 	1    0    0    -1  
 $EndComp
@@ -402,6 +414,7 @@ F 0 "P2" H 5000 2250 50  0000 C CNN
 F 1 "CONN_01X03" V 5100 2050 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5000 2050 50  0001 C CNN
 F 3 "" H 5000 2050 50  0000 C CNN
+F 4 "1593412" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    5000 2050
 	1    0    0    -1  
 $EndComp
@@ -413,6 +426,7 @@ F 0 "P3" H 6150 1350 50  0000 C CNN
 F 1 "CONN_01X03" V 6250 1150 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6150 1150 50  0001 C CNN
 F 3 "" H 6150 1150 50  0000 C CNN
+F 4 "1593412" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    6150 1150
 	1    0    0    -1  
 $EndComp
@@ -424,6 +438,7 @@ F 0 "P4" H 6150 2250 50  0000 C CNN
 F 1 "CONN_01X03" V 6250 2050 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6150 2050 50  0001 C CNN
 F 3 "" H 6150 2050 50  0000 C CNN
+F 4 "1593412" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    6150 2050
 	1    0    0    -1  
 $EndComp
@@ -435,6 +450,7 @@ F 0 "P5" H 7350 1350 50  0000 C CNN
 F 1 "CONN_01X03" V 7450 1150 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7350 1150 50  0001 C CNN
 F 3 "" H 7350 1150 50  0000 C CNN
+F 4 "1593412" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    7350 1150
 	1    0    0    -1  
 $EndComp
@@ -446,6 +462,7 @@ F 0 "P6" H 7350 2250 50  0000 C CNN
 F 1 "CONN_01X03" V 7450 2050 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7350 2050 50  0001 C CNN
 F 3 "" H 7350 2050 50  0000 C CNN
+F 4 "1593412" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    7350 2050
 	1    0    0    -1  
 $EndComp
@@ -515,8 +532,9 @@ U 1 1 5A2DAD63
 P 1850 2550
 F 0 "TP12" H 1850 2850 50  0000 C BNN
 F 1 "DC-" H 1850 2800 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 1850 2550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 1850 2550 50  0001 C CNN
 F 3 "" H 1850 2550 50  0001 C CNN
+F 4 "8731250" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    1850 2550
 	1    0    0    -1  
 $EndComp
@@ -526,8 +544,9 @@ U 1 1 5A2DB375
 P 1800 900
 F 0 "TP11" H 1800 1200 50  0000 C BNN
 F 1 "DC+" H 1800 1150 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 1800 900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 1800 900 50  0001 C CNN
 F 3 "" H 1800 900 50  0001 C CNN
+F 4 "8731250" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    1800 900 
 	-1   0    0    1   
 $EndComp
@@ -537,8 +556,9 @@ U 1 1 5A2DB665
 P 1800 1650
 F 0 "TP10" H 1800 1950 50  0000 C BNN
 F 1 "DC_MID" H 1800 1900 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 1800 1650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 1800 1650 50  0001 C CNN
 F 3 "" H 1800 1650 50  0001 C CNN
+F 4 "8731250" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    1800 1650
 	1    0    0    -1  
 $EndComp
@@ -669,8 +689,9 @@ U 1 1 5A2D954A
 P 4700 6450
 F 0 "U40" H 4500 6800 50  0000 R CNN
 F 1 "ACPL-C87B" H 4900 6700 50  0000 R CNN
-F 2 "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance7mm" H 4850 6100 50  0001 L CIN
+F 2 "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm" H 4850 6100 50  0001 L CIN
 F 3 "" H 4745 6455 50  0001 L CNN
+F 4 "2213635" H 4700 6450 50  0001 C CNN "Farnell_ID"
 	1    4700 6450
 	1    0    0    -1  
 $EndComp
@@ -702,8 +723,9 @@ U 1 1 5A2E2D38
 P 7450 6700
 F 0 "TP22" H 7450 7000 50  0000 C BNN
 F 1 "GND" H 7450 6950 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 7450 6700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 7450 6700 50  0001 C CNN
 F 3 "" H 7450 6700 50  0001 C CNN
+F 4 "8731250" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    7450 6700
 	-1   0    0    1   
 $EndComp
@@ -735,8 +757,9 @@ U 1 1 5A2E9532
 P 3500 3400
 F 0 "TP7" H 3500 3700 50  0000 C BNN
 F 1 "TEST" H 3500 3650 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 3500 3400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 3500 3400 50  0001 C CNN
 F 3 "" H 3500 3400 50  0001 C CNN
+F 4 "8731250" H 3500 3400 50  0001 C CNN "Farnell_ID"
 	1    3500 3400
 	1    0    0    -1  
 $EndComp
@@ -746,8 +769,9 @@ U 1 1 5A2E9648
 P 3700 3550
 F 0 "TP8" H 3700 3850 50  0000 C BNN
 F 1 "TEST" H 3700 3800 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 3700 3550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 3700 3550 50  0001 C CNN
 F 3 "" H 3700 3550 50  0001 C CNN
+F 4 "8731250" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    3700 3550
 	1    0    0    -1  
 $EndComp
@@ -757,8 +781,9 @@ U 1 1 5A2E9752
 P 3900 3700
 F 0 "TP9" H 3900 4000 50  0000 C BNN
 F 1 "TEST" H 3900 3950 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 3900 3700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 3900 3700 50  0001 C CNN
 F 3 "" H 3900 3700 50  0001 C CNN
+F 4 "8731250" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    3900 3700
 	1    0    0    -1  
 $EndComp
@@ -922,8 +947,9 @@ U 1 1 5A30ED61
 P 7400 5750
 F 0 "TP21" H 7400 6050 50  0000 C BNN
 F 1 "VCC" H 7400 6000 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 7400 5750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 7400 5750 50  0001 C CNN
 F 3 "" H 7400 5750 50  0001 C CNN
+F 4 "8731250" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    7400 5750
 	1    0    0    -1  
 $EndComp
@@ -966,8 +992,9 @@ U 1 1 5A31BC54
 P 10400 5750
 F 0 "TP31" H 10400 6050 50  0000 C BNN
 F 1 "VCC_ISO" H 10400 6000 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 10400 5750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10400 5750 50  0001 C CNN
 F 3 "" H 10400 5750 50  0001 C CNN
+F 4 "8731250" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    10400 5750
 	1    0    0    -1  
 $EndComp
@@ -977,8 +1004,9 @@ U 1 1 5A31BD6B
 P 10400 6700
 F 0 "TP32" H 10400 7000 50  0000 C BNN
 F 1 "GND_ISO" H 10400 6950 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 10400 6700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10400 6700 50  0001 C CNN
 F 3 "" H 10400 6700 50  0001 C CNN
+F 4 "8731250" H 0   0   50  0001 C CNN "Farnell_ID"
 	1    10400 6700
 	-1   0    0    1   
 $EndComp
@@ -1632,6 +1660,7 @@ F 0 "P1" H 5000 1350 50  0000 C CNN
 F 1 "CONN_01X03" V 5100 1150 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5000 1150 50  0001 C CNN
 F 3 "" H 5000 1150 50  0000 C CNN
+F 4 "1593412" H 5000 1150 50  0001 C CNN "Farnell_ID"
 	1    5000 1150
 	1    0    0    -1  
 $EndComp
@@ -1845,11 +1874,10 @@ F 0 "J11" H 10600 3550 50  0000 C CNN
 F 1 "CONN_02X06" H 10650 2800 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 10600 2000 50  0001 C CNN
 F 3 "" H 10600 2000 50  0001 C CNN
+F 4 "1593443" H 10600 3200 50  0001 C CNN "Farnell_ID"
 	1    10600 3200
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	10800 3500 10900 3500
 Wire Wire Line
 	7700 3900 7700 4050
 Wire Wire Line
@@ -1859,8 +1887,6 @@ Wire Wire Line
 Wire Wire Line
 	10800 3400 10900 3400
 Wire Wire Line
-	10900 3400 10900 3500
-Wire Wire Line
 	10800 3300 10900 3300
 Wire Wire Line
 	10900 3300 10900 3400
@@ -1868,7 +1894,7 @@ Connection ~ 10900 3400
 Wire Wire Line
 	10150 3500 10300 3500
 Wire Wire Line
-	10150 3500 10150 3750
+	10150 3500 10150 3700
 Wire Wire Line
 	10200 3100 10300 3100
 Wire Wire Line
@@ -1901,9 +1927,6 @@ F 3 "" H 7700 4050 50  0001 C CNN
 	1    7700 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10900 3800 10900 3500
-Connection ~ 10900 3500
 Wire Wire Line
 	6250 3200 8050 3200
 Wire Wire Line
@@ -1942,4 +1965,15 @@ Wire Wire Line
 	800  4650 1500 4650
 Wire Wire Line
 	800  5300 1500 5300
+Wire Wire Line
+	10900 3400 10900 3800
+Wire Wire Line
+	10800 3500 10850 3500
+Wire Wire Line
+	10850 3500 10850 3700
+Wire Wire Line
+	10850 3700 10150 3700
+Connection ~ 10150 3700
+Wire Wire Line
+	10150 3700 10150 3750
 $EndSCHEMATC
