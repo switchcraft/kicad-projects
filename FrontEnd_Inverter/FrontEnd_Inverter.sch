@@ -470,6 +470,7 @@ F 0 "U30" H 9000 6550 60  0000 C CNN
 F 1 "ISE0505A-H" H 9400 5550 60  0000 C CNN
 F 2 "Package_DIP:SMDIP-8_W7.62mm" H 9300 6050 60  0001 C CNN
 F 3 "" H 9300 6050 60  0001 C CNN
+F 4 "2475828" H 9350 6050 50  0001 C CNN "Farnell_ID"
 	1    9350 6050
 	1    0    0    -1  
 $EndComp
@@ -496,7 +497,7 @@ F 3 "" H 10600 6350 50  0001 C CNN
 	1    10600 6350
 	0    -1   -1   0   
 $EndComp
-Text Notes 8850 5450 0    60   ~ 0
+Text Notes 8650 6850 0    60   ~ 0
 Isolated 5V to iso. op-amps
 $Comp
 L Device:C C31
@@ -995,8 +996,8 @@ F 3 "" H 6150 5950 50  0001 C CNN
 $EndComp
 Text Notes 5000 2950 0    60   ~ 0
 Current Sensors
-Text Notes 10300 5250 0    60   ~ 0
-Measurements
+Text Notes 9550 4550 0    60   ~ 0
+Pinheader for\nmeasurements
 $Comp
 L Device:C C41
 U 1 1 5A2FF109
@@ -1768,6 +1769,7 @@ F 0 "U50" H 10050 2350 50  0000 L CNN
 F 1 "ACPL-C87B" H 10150 2450 50  0000 L CNN
 F 2 "Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm" H 10500 1650 50  0001 L CIN
 F 3 "www.avagotech.com/docs/AV02-3563EN" H 10395 2005 50  0001 L CNN
+F 4 "2213635" H 10350 2000 50  0001 C CNN "Farnell_ID"
 	1    10350 2000
 	1    0    0    -1  
 $EndComp
@@ -2275,4 +2277,6 @@ F 4 "1593412" H 800 3000 50  0001 C CNN "Farnell_ID"
 	1    800  3000
 	-1   0    0    1   
 $EndComp
+Text Notes 4100 7100 0    60   ~ 0
+Temperature measurement
 $EndSCHEMATC
