@@ -249,7 +249,7 @@
       (net 2 "Net-(C1-Pad2)"))
     (pad 1 thru_hole circle (at -26.25 -10.15 270) (size 4 4) (drill 1.5) (layers *.Cu *.Mask)
       (net 2 "Net-(C1-Pad2)"))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/Panasonic.3dshapes/Panasonic_EZPE50806MTA.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/Panasonic.3dshapes/Panasonic_EZPE50806MTA.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -281,7 +281,7 @@
       (net 1 DC+))
     (pad 1 thru_hole circle (at -26.25 -10.15 270) (size 4 4) (drill 1.5) (layers *.Cu *.Mask)
       (net 1 DC+))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/Panasonic.3dshapes/Panasonic_EZPE50806MTA.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/Panasonic.3dshapes/Panasonic_EZPE50806MTA.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -313,7 +313,7 @@
       (net 2 "Net-(C1-Pad2)"))
     (pad 1 thru_hole circle (at -26.25 -10.15 270) (size 4 4) (drill 1.5) (layers *.Cu *.Mask)
       (net 2 "Net-(C1-Pad2)"))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/Panasonic.3dshapes/Panasonic_EZPE50806MTA.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/Panasonic.3dshapes/Panasonic_EZPE50806MTA.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -345,7 +345,7 @@
       (net 1 DC+))
     (pad 1 thru_hole circle (at -26.25 -10.15 270) (size 4 4) (drill 1.5) (layers *.Cu *.Mask)
       (net 1 DC+))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/Panasonic.3dshapes/Panasonic_EZPE50806MTA.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/Panasonic.3dshapes/Panasonic_EZPE50806MTA.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1028,7 +1028,7 @@
       (net 41 I-))
     (pad 5 thru_hole circle (at 1.91 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask)
       (net 13 VCC))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/Allegro.3dshapes/ACS758xCB-PFF.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/Allegro.3dshapes/ACS758xCB-PFF.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1082,7 +1082,7 @@
       (net 38 "Net-(D1-Pad4)"))
     (pad 4 thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask)
       (net 14 GND))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/Allegro.3dshapes/ACS758xCB-PFF.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/Allegro.3dshapes/ACS758xCB-PFF.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1453,7 +1453,7 @@
     (pad 15 thru_hole circle (at 23.5 11.375) (size 3 3) (drill 2) (layers *.Cu *.Mask)
       (net 40 "Net-(D1-Pad15)"))
     (pad "" np_thru_hole circle (at 26.25 -14.25) (size 2 2) (drill 1.75) (layers *.Cu *.Mask))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/semikron.3dshapes/Semitop3_cib_dummy_sp.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/semikron.3dshapes/Semitop3_cib_dummy_sp.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2205,7 +2205,7 @@
       (net 24 "Net-(R11-Pad2)"))
     (pad 5 thru_hole circle (at 1.91 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask)
       (net 13 VCC))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/Allegro.3dshapes/ACS758xCB-PFF.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/Allegro.3dshapes/ACS758xCB-PFF.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3719,7 +3719,7 @@
     (pad 2 smd rect (at -15.03 15.8 270) (size 3 2.4) (layers F.Cu F.Mask)
       (net 5 T2_g))
     (pad "" np_thru_hole circle (at 0 0 270) (size 9.1 9.1) (drill 9.1) (layers *.Cu *.Mask))
-    (model "/Users/Yngve/git/Switchcraft/kicad-lib/packages3d/semikron.3dshapes/MiniSKiiP_II_1_ Housing.wrl"
+    (model "${SWITCHCRAFTLIB}/packages3d/semikron.3dshapes/MiniSKiiP_II_1_ Housing.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3773,7 +3773,7 @@
       (net 25 "Net-(R12-Pad2)"))
     (pad 5 thru_hole circle (at 1.91 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask)
       (net 13 VCC))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/Allegro.3dshapes/ACS758xCB-PFF.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/Allegro.3dshapes/ACS758xCB-PFF.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3827,7 +3827,7 @@
       (net 26 "Net-(R13-Pad2)"))
     (pad 5 thru_hole circle (at 1.91 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask)
       (net 13 VCC))
-    (model /Users/Yngve/git/Switchcraft/kicad-lib/packages3d/Allegro.3dshapes/ACS758xCB-PFF.wrl
+    (model ${SWITCHCRAFTLIB}/packages3d/Allegro.3dshapes/ACS758xCB-PFF.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

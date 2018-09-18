@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Semikron)(type Legacy)(uri ${SWITCHCRAFTLIB}/library/Semikron.lib)(options "")(descr ""))
+  (lib (name Avago)(type Legacy)(uri ${SWITCHCRAFTLIB}/library/Avago.lib)(options "")(descr ""))
+  (lib (name Allegro)(type Legacy)(uri ${SWITCHCRAFTLIB}/library/Allegro.lib)(options "")(descr ""))
+  (lib (name Power_ports)(type Legacy)(uri ${SWITCHCRAFTLIB}/library/Power_ports.lib)(options "")(descr ""))
+  (lib (name Xppower)(type Legacy)(uri ${SWITCHCRAFTLIB}/library/Xppower.lib)(options "")(descr ""))
+)

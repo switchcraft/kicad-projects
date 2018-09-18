@@ -10,11 +10,11 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=$SWITCHCRAFTLIB/library
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=/Users/Yngve/Dropbox/Drivesprosjekt/Switchcraft AS/Switchcraft_std_layout.kicad_wks
+PageLayoutDescrFile=$SWITCHCRAFTLIB/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -24,7 +24,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=/Users/Yngve/git/Switchcraft/kicad-lib/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
+PageLayoutDescrFile=$SWITCHCRAFTLIB/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
 LastNetListRead=
 PadDrill=3.2
 PadDrillOvalY=3.2
