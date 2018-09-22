@@ -583,37 +583,37 @@ $EndComp
 $Comp
 L Connector:TestPoint TP7
 U 1 1 5A2E9532
-P 3500 3400
-F 0 "TP7" H 3500 3700 50  0000 C BNN
-F 1 "TEST" H 3500 3650 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 3500 3400 50  0001 C CNN
-F 3 "" H 3500 3400 50  0001 C CNN
-F 4 "8731250" H 3500 3400 50  0001 C CNN "Farnell_ID"
-	1    3500 3400
+P 6700 4200
+F 0 "TP7" H 6700 4500 50  0000 C BNN
+F 1 "TEST" H 6700 4450 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 6700 4200 50  0001 C CNN
+F 3 "" H 6700 4200 50  0001 C CNN
+F 4 "8731250" H 6700 4200 50  0001 C CNN "Farnell_ID"
+	1    6700 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5A2E9648
-P 3700 3550
-F 0 "TP8" H 3700 3850 50  0000 C BNN
-F 1 "TEST" H 3700 3800 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 3700 3550 50  0001 C CNN
-F 3 "" H 3700 3550 50  0001 C CNN
-F 4 "8731250" H 0   0   50  0001 C CNN "Farnell_ID"
-	1    3700 3550
+P 6850 4300
+F 0 "TP8" H 6850 4600 50  0000 C BNN
+F 1 "TEST" H 6850 4550 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 6850 4300 50  0001 C CNN
+F 3 "" H 6850 4300 50  0001 C CNN
+F 4 "8731250" H 3150 750 50  0001 C CNN "Farnell_ID"
+	1    6850 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP9
 U 1 1 5A2E9752
-P 3900 3700
-F 0 "TP9" H 3900 4000 50  0000 C BNN
-F 1 "TEST" H 3900 3950 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 3900 3700 50  0001 C CNN
-F 3 "" H 3900 3700 50  0001 C CNN
-F 4 "8731250" H 0   0   50  0001 C CNN "Farnell_ID"
-	1    3900 3700
+P 7000 4500
+F 0 "TP9" H 7000 4800 50  0000 C BNN
+F 1 "TEST" H 7000 4750 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 7000 4500 50  0001 C CNN
+F 3 "" H 7000 4500 50  0001 C CNN
+F 4 "8731250" H 3100 800 50  0001 C CNN "Farnell_ID"
+	1    7000 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1033,14 +1033,8 @@ Wire Wire Line
 	6550 5100 5800 5100
 Wire Wire Line
 	5800 4150 6200 4150
-Wire Wire Line
-	3500 3400 3500 3500
 Connection ~ 3500 4300
-Wire Wire Line
-	3700 3550 3700 3650
 Connection ~ 3700 4650
-Wire Wire Line
-	3900 3700 3900 3800
 Connection ~ 3900 5000
 Wire Wire Line
 	4650 4350 4650 4400
@@ -1071,13 +1065,10 @@ Connection ~ 4650 3050
 Connection ~ 4650 4400
 Wire Wire Line
 	3150 3500 3500 3500
-Connection ~ 3500 3500
 Wire Wire Line
 	3150 3650 3700 3650
-Connection ~ 3700 3650
 Wire Wire Line
 	3150 3800 3900 3800
-Connection ~ 3900 3800
 Wire Wire Line
 	8000 4100 8000 4200
 Wire Wire Line
@@ -1168,7 +1159,7 @@ Wire Notes Line
 Wire Notes Line
 	5950 2750 8300 2750
 Wire Wire Line
-	7050 4650 5800 4650
+	7050 4650 6850 4650
 Wire Wire Line
 	8300 5900 8300 5800
 Wire Wire Line
@@ -1728,9 +1719,9 @@ Connection ~ 10900 4800
 Wire Wire Line
 	10900 4800 10950 4800
 Wire Wire Line
-	5950 4550 7050 4550
+	5950 4550 6700 4550
 Wire Wire Line
-	5950 4750 7050 4750
+	5950 4750 7000 4750
 Wire Wire Line
 	3700 4650 4850 4650
 $Comp
@@ -2204,4 +2195,19 @@ Wire Wire Line
 	10450 3000 8050 3000
 Wire Wire Line
 	8050 3000 8050 2100
+Wire Wire Line
+	6700 4200 6700 4550
+Connection ~ 6700 4550
+Wire Wire Line
+	6700 4550 7050 4550
+Wire Wire Line
+	6850 4300 6850 4650
+Connection ~ 6850 4650
+Wire Wire Line
+	6850 4650 5800 4650
+Wire Wire Line
+	7000 4500 7000 4750
+Connection ~ 7000 4750
+Wire Wire Line
+	7000 4750 7050 4750
 $EndSCHEMATC
