@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name power1)(type Legacy)(uri "/Library/Application Support/kicad/library/power.lib")(options "")(descr ""))
+  (lib (name device)(type Legacy)(uri "/Library/Application Support/kicad/library/device.lib")(options "")(descr ""))
+  (lib (name 74xx1)(type Legacy)(uri "/Library/Application Support/kicad/library/74xx.lib")(options "")(descr ""))
+  (lib (name audio)(type Legacy)(uri "/Library/Application Support/kicad/library/audio.lib")(options "")(descr ""))
+  (lib (name interface)(type Legacy)(uri "/Library/Application Support/kicad/library/interface.lib")(options "")(descr ""))
+)
