@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Mornsun)(type Legacy)(uri ${SWITCHCRAFTLIB}/library/Mornsun.lib)(options "")(descr ""))
+  (lib (name Power_ports)(type Legacy)(uri ${SWITCHCRAFTLIB}/library/Power_ports.lib)(options "")(descr ""))
+  (lib (name Texas_GateDriver)(type Legacy)(uri ${SWITCHCRAFTLIB}/library/Texas_GateDriver.lib)(options "")(descr ""))
+)
