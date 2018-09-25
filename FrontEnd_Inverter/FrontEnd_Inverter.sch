@@ -125,7 +125,7 @@ Text Notes 7450 4800 0    60   ~ 0
 Main \nmotor \nconnection
 Text Notes 500  1700 0    60   ~ 0
 Mains\nSupply
-Text Notes 8900 200  0    60   ~ 0
+Text Notes 8800 600  0    60   ~ 0
 Gatedriver connections
 $Comp
 L Connector_Generic:Conn_01x02 P20
