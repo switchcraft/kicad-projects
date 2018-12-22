@@ -1,4 +1,4 @@
-update=2018 September 09, Sunday 15:01:24
+update=2018 December 22, Saturday 20:36:03
 version=1
 last_client=kicad
 [general]
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=$SWITCHCRAFTLIB/library
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=$SWITCHCRAFTLIB/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=$SWITCHCRAFTLIB/page_layouts/Switchcraft/Switchcraft_std_layout_v2.kicad_wks
@@ -41,3 +31,13 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=/Users/Yngve/git/Switchcraft/kicad-lib/page_layouts/Switchcraft/Switchcraft_std_layout_v2_A3.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
