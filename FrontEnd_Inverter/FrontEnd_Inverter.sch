@@ -103,8 +103,6 @@ F 4 "1781918" H 7850 2500 50  0001 C CNN "Farnell_ID"
 	1    7850 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 14250 8950 0    60   Input ~ 0
-DC+
 Text GLabel 14250 7600 0    60   Input ~ 0
 T1_g
 Text GLabel 14250 7800 0    60   Input ~ 0
@@ -2032,8 +2030,6 @@ F 3 "" H 5050 4250 50  0001 C CNN
 	1    5050 4250
 	1    0    0    -1  
 $EndComp
-Text GLabel 14250 9050 0    60   Input ~ 0
-DC+
 Text GLabel 15650 7750 2    60   Output ~ 0
 U
 Text GLabel 15650 8100 2    60   Output ~ 0
@@ -3006,4 +3002,24 @@ Wire Wire Line
 Connection ~ 4100 10100
 Wire Wire Line
 	4100 10100 4600 10100
+$Comp
+L power:+VDC #PWR0113
+U 1 1 5D219C0B
+P 13950 9050
+F 0 "#PWR0113" H 13950 8950 50  0001 C CNN
+F 1 "+VDC" H 13950 9325 50  0000 C CNN
+F 2 "" H 13950 9050 50  0001 C CNN
+F 3 "" H 13950 9050 50  0001 C CNN
+	1    13950 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13950 9050 14100 9050
+Wire Wire Line
+	14250 8950 14100 8950
+Wire Wire Line
+	14100 8950 14100 9050
+Connection ~ 14100 9050
+Wire Wire Line
+	14100 9050 14250 9050
 $EndSCHEMATC
