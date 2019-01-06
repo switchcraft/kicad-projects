@@ -364,7 +364,7 @@ F 1 "CONN_01X03" V 3400 1450 50  0000 C CNN
 F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G-7,62_1x03_P7.62mm_Horizontal" H 3300 1450 50  0001 C CNN
 F 3 "" H 3300 1450 50  0000 C CNN
 	1    3300 1450
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R41
@@ -2125,7 +2125,7 @@ U 1 1 6596562C
 P 2000 2050
 F 0 "P20" H 2000 1850 50  0000 C CNN
 F 1 "CONN_01X02" V 2100 2050 50  0000 C CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G-7,62_1x03_P7.62mm_Horizontal" H 2000 2050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2000 2050 50  0001 C CNN
 F 3 "" H 2000 2050 50  0000 C CNN
 F 4 "1766246" H 2000 2050 50  0001 C CNN "Farnell_ID"
 	1    2000 2050
